@@ -1,0 +1,101 @@
+.title{
+    justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+  text-align: center;
+}
+
+.infoalbum div{
+    display: flex;
+    margin: 0 5%;
+    margin-bottom: 5%;
+}
+.infoal {
+    display: flex;
+    margin-bottom: 30px;
+  }
+  
+  .infoal {
+    display: flex;
+  justify-content: center; /* Center items horizontally */
+ /* Center items vertically */
+ 
+}
+  
+  .infotext {
+    display: flex;
+    flex-direction: column; /* Stack the paragraphs vertically */
+    background-color: aliceblue; /* Add your desired background color */
+    padding: 10px; /* Add padding for some space around the paragraphs */
+    border-radius: 2px;
+    align-items: top;
+  
+  }
+  
+  .infotext p {
+    margin: 0;
+    padding-bottom: 0px; /* Adjust the spacing between paragraphs as needed */
+    background-color: aliceblue; /* Set the text color to black or your preferred color */
+  }
+  
+  .infoalimg {
+    max-width: 500px;
+    height: auto;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+  }
+  .infoal img{
+    max-width: 300px;
+    max-height: 300px;
+    height: auto;
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .colorunoa{
+    background-color: aliceblue;
+    color:rgb(4, 125, 200);
+    display: inline;
+  }
+
+  .ver{
+    background-color: rgb(156, 163, 169);
+    text-align: center;
+    padding: 10px;
+    font-weight: 1000;
+  }
+
+  .colordosa{
+    background-color: aliceblue;
+    color:green;
+  }
+
+  @media (max-width: 600px) {
+    .infoal{
+      flex-direction: column;
+    }
+  .infotext{
+    margin: 10px;
+  }
+  .infoal img{
+    max-width: 300px;
+  }
+}
+
+.infoalimgmerch{
+  max-width: 150px;
+  max-height: 150px;
+  height: auto;
+  flex-direction: column;
+  margin-bottom: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 5px;
+  justify-self: center; /* Center items horizontally */
+}
+
+.infoalimgmerch p{
+  margin-top: 0;
+}
