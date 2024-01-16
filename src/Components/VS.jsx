@@ -6,7 +6,7 @@ const VS = ()=>{
   <h1 className="title">Versus: Villains </h1>
   <div className="infoal">
     <div className="infotext">
-    <p>- Beneficio de Preventa (POBs) = $9000 aprox <span className="colorunoa">8usd</span></p>
+    <p>- Beneficio de Preventa (POBs) = desde $9000 aprox <span className="colorunoa">8usd</span></p>
             <p className="ver">LIMITADO (ver. c)</p>
             <p>- Photobook Limitado (cd+pb) = $9500 <span className="colorunoa">9,5usd</span> </p>
             <p>- Photocard limitada = $4200 <span className="colorunoa">4,2usd</span></p>

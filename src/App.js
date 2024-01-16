@@ -1,6 +1,6 @@
 import React from 'react';
 import RTU from './Components/RTU';
-import { BrowserRouter as Router, Link, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Link, Route, Routes, useLocation } from 'react-router-dom';
 import "./App.css"
 import LM from './Components/LM';
 import Nightmare from './Components/Nightmare';
@@ -17,6 +17,11 @@ import AFU from './Components/AFU';
 import AFRU from './Components/AFRU';
 import Merch from './Components/Merch';
 import VS from './Components/VS';
+import { BsFillCollectionFill } from "react-icons/bs";
+import { RiSurveyLine } from "react-icons/ri";
+import { FaInstagram } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa6";
+import { FaFacebookF } from "react-icons/fa6";
 
 function App() {
   return (
@@ -44,11 +49,11 @@ function App() {
             <span className="colordos"> verde</span>
           </p>
           <p>
-          <a href="https://drive.google.com/drive/folders/1cgD_4xUKB1jORN5S0sHNhq3_mlKynETu?usp=sharing">
-            Photocard Templates 
+          <a className='link' href="https://drive.google.com/drive/folders/1cgD_4xUKB1jORN5S0sHNhq3_mlKynETu?usp=sharing">
+          <BsFillCollectionFill /> Photocard Templates 
           </a> </p>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdLIUXlWFGWoX3_1YKj5-10JOBhq0tsLFsU9ScClF0okjpKFQ/viewform">
-            Dreamcatcher en Argentina
+          <a className='link' href="https://docs.google.com/forms/d/e/1FAIpQLSdLIUXlWFGWoX3_1YKj5-10JOBhq0tsLFsU9ScClF0okjpKFQ/viewform">
+          <RiSurveyLine /> Dreamcatcher en Argentina
           </a>
           <p>Última actualización: Enero 2024 (dólar a $1100)</p>
         </div>
@@ -174,29 +179,52 @@ function App() {
         </Link>
         </div>
         <h4>Clickea un album para ver los precios!</h4>
-        <Routes>
-          <Route path="/NIGHTMARE" element={<Nightmare />} />
-          <Route path="/FAITM" element={<FAITM/>} />
-          <Route path="/PREQUEL" element={<Prequel/>} />
-          <Route path="/ETE" element={<ETE />} />
-          <Route path="/AITC" element={<AITC/>} />
-          <Route path="/TEON" element={<TEON/>} />
-          <Route path="/ROD" element={<ROD/>} />
-          <Route path="/TTOL" element={<TTOL/>} />
-          <Route path="/RTU" element={<RTU />} />
-          <Route path="/LM" element={<LM />} />
-          <Route path="/SH" element={<SH/>} />
-          <Route path="/ASU" element={<ASU/>} />
-          <Route path="/AFU" element={<AFU/>} />
-          <Route path="/AFRU" element={<AFRU/>} />
-          <Route path="/Merch" element={<Merch/>} />
-          <Route path="/VS" element={<VS/>} />
-        </Routes>
+        <AlbumContainer />
         <footer className='footer'>
-           <p>cr. @suikhan_ </p>
+           <p>cr. @suikhan_ y @chaechae.iz </p>
+           <p>Redes Dreamcatcher Argentina:
+            <a className='redes' href='https://www.instagram.com/dreamcatcherargentina/'><FaInstagram /></a>
+            <a className="redes" href='https://twitter.com/ArgDreamcatcher'><FaTwitter /></a>
+            <a className='redes' href='https://www.facebook.com/DreamcatcherArgentina'><FaFacebookF /></a>
+           </p>
         </footer>
       </>
     </Router>
+  );
+}
+
+function AlbumContainer() {
+  const location = useLocation();
+  const albumContainerRef = React.useRef(null);
+
+  React.useEffect(() => {
+    // Mostrar el albumContainer cuando se cambia a una ruta que no sea la home
+    if (location.pathname !== "/") {
+      albumContainerRef.current.scrollIntoView({ block: 'start', behavior: 'smooth' });
+    }
+  }, [location]);
+
+  return (
+    <div className="album-container" ref={albumContainerRef}>
+      <Routes>
+        <Route path="/NIGHTMARE" element={<Nightmare />} />
+        <Route path="/FAITM" element={<FAITM />} />
+        <Route path="/PREQUEL" element={<Prequel />} />
+        <Route path="/ETE" element={<ETE />} />
+        <Route path="/AITC" element={<AITC />} />
+        <Route path="/TEON" element={<TEON />} />
+        <Route path="/ROD" element={<ROD />} />
+        <Route path="/TTOL" element={<TTOL />} />
+        <Route path="/RTU" element={<RTU />} />
+        <Route path="/LM" element={<LM />} />
+        <Route path="/SH" element={<SH />} />
+        <Route path="/ASU" element={<ASU />} />
+        <Route path="/AFU" element={<AFU />} />
+        <Route path="/AFRU" element={<AFRU />} />
+        <Route path="/Merch" element={<Merch />} />
+        <Route path="/VS" element={<VS />} />
+      </Routes>
+    </div>
   );
 }
 
