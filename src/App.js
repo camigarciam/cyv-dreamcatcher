@@ -1,6 +1,6 @@
 import React from 'react';
 import RTU from './Components/RTU';
-import { BrowserRouter as Router, Link, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Link, Route, Routes, useLocation } from 'react-router-dom';
 import "./App.css"
 import LM from './Components/LM';
 import Nightmare from './Components/Nightmare';
@@ -174,29 +174,47 @@ function App() {
         </Link>
         </div>
         <h4>Clickea un album para ver los precios!</h4>
-        <Routes>
-          <Route path="/NIGHTMARE" element={<Nightmare />} />
-          <Route path="/FAITM" element={<FAITM/>} />
-          <Route path="/PREQUEL" element={<Prequel/>} />
-          <Route path="/ETE" element={<ETE />} />
-          <Route path="/AITC" element={<AITC/>} />
-          <Route path="/TEON" element={<TEON/>} />
-          <Route path="/ROD" element={<ROD/>} />
-          <Route path="/TTOL" element={<TTOL/>} />
-          <Route path="/RTU" element={<RTU />} />
-          <Route path="/LM" element={<LM />} />
-          <Route path="/SH" element={<SH/>} />
-          <Route path="/ASU" element={<ASU/>} />
-          <Route path="/AFU" element={<AFU/>} />
-          <Route path="/AFRU" element={<AFRU/>} />
-          <Route path="/Merch" element={<Merch/>} />
-          <Route path="/VS" element={<VS/>} />
-        </Routes>
+        <AlbumContainer />
         <footer className='footer'>
            <p>cr. @suikhan_ </p>
         </footer>
       </>
     </Router>
+  );
+}
+
+function AlbumContainer() {
+  const location = useLocation();
+  const albumContainerRef = React.useRef(null);
+
+  React.useEffect(() => {
+    // Mostrar el albumContainer cuando se cambia a una ruta que no sea la home
+    if (location.pathname !== "/") {
+      albumContainerRef.current.scrollIntoView({ block: 'start', behavior: 'smooth' });
+    }
+  }, [location]);
+
+  return (
+    <div className="album-container" ref={albumContainerRef}>
+      <Routes>
+        <Route path="/NIGHTMARE" element={<Nightmare />} />
+        <Route path="/FAITM" element={<FAITM />} />
+        <Route path="/PREQUEL" element={<Prequel />} />
+        <Route path="/ETE" element={<ETE />} />
+        <Route path="/AITC" element={<AITC />} />
+        <Route path="/TEON" element={<TEON />} />
+        <Route path="/ROD" element={<ROD />} />
+        <Route path="/TTOL" element={<TTOL />} />
+        <Route path="/RTU" element={<RTU />} />
+        <Route path="/LM" element={<LM />} />
+        <Route path="/SH" element={<SH />} />
+        <Route path="/ASU" element={<ASU />} />
+        <Route path="/AFU" element={<AFU />} />
+        <Route path="/AFRU" element={<AFRU />} />
+        <Route path="/Merch" element={<Merch />} />
+        <Route path="/VS" element={<VS />} />
+      </Routes>
+    </div>
   );
 }
 
