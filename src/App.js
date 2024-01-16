@@ -228,4 +228,8 @@ function AlbumContainer() {
   );
 }
 
+<<<<<<< HEAD
 export default App;
+=======
+export default App;
+>>>>>>> 25a5f178f843032384f1a1ae359cef35eb8099f0
