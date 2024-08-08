@@ -81,7 +81,7 @@ const Merch = ()=>{
             <p>-Photocard = <span className="colorunoa">5usd </span><span className="colordosa">5usd</span></p>
 
             <p  className="ver">COREELLE</p>
-            <p>-Photocard = <span className="colorunoa">5usd </span><span className="colordosa">5usd</span></p>
+            <p>-Photocard =<span className="colordosa">15usd</span></p>
 
             <p  className="ver">THE STAR </p>
             <p>-Photocard (set: 1 pc de Dreamcatcher + 1 pc de Youngjae GOT7) =<span className="colordosa">12usd</span></p>
