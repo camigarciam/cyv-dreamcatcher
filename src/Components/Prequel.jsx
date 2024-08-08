@@ -6,7 +6,7 @@ const Prequel = ()=>{
     <div className="infoal">
       <div className="infotext">
         <p className="ver">NORMAL (ver. Before-After)</p>
-        <p>-Photobook (cd+pb) = <span className="colordosa">50-80 usd</span></p>
+        <p>-Photobook (cd+pb) = <span className="colordosa">70-80 usd</span></p>
         <p>-Photocard = <span className="colordosa">30 usd</span></p>
         <p>-Poster= ?</p>
       </div>

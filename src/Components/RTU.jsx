@@ -6,17 +6,17 @@ const RTU=()=>{
   <h1 className="title">DYSTOPIA: ROAD TO UTOPIA</h1>
   <div className="infoal">
     <div className="infotext">
-      <p>- Beneficio de Preventa (POBs) = desde $10k <span className="colorunoa">10usd</span></p>
-      <p>- Poster de preventa= $1800 <span className="colorunoa">1,75usd</span></p>
+      <p>- Beneficio de Preventa (POBs) =  desde <span className="colorunoa">10usd</span> <span className="colordosa"> 8 usd</span></p>
+      <p>- Poster de preventa= <span className="colorunoa">1,75usd</span> <span className="colordosa"> 5 usd</span></p>
       <p className="ver">LIMITADO (ver. D)</p>
-      <p>- Photobook Limitado (cd+pb) = $135k <span className="colorunoa">12,5usd</span></p>
-      <p>- Photocard limitada = $6800 <span className="colorunoa">6,5usd</span></p>
-      <p>- Cover-up Card = $3200 <span className="colorunoa">3usd</span></p>
-      <p>- DIY Dreamcatcher kit = $2800 <span className="colorunoa">2,5usd</span></p>
+      <p>- Photobook Limitado (cd+pb) = <span className="colorunoa">12,5usd</span> <span className="colordosa"> 10 usd</span></p>
+      <p>- Photocard limitada = <span className="colorunoa">6,5usd</span> <span className="colordosa"> 10 usd</span></p>
+      <p>- Cover-up Card =  <span className="colorunoa">3usd</span> <span className="colordosa"> 5 usd</span></p>
+      <p>- DIY Dreamcatcher kit = <span className="colorunoa">2,5usd</span> <span className="colordosa"> 5 usd</span></p>
       <p className="ver">NORMAL (ver. A,R,K)</p>
-      <p>- Photobook (cd+pb) = $9500 <span className="colorunoa">9usd</span></p>
-      <p>- Photocard = $4200 <span className="colorunoa">4usd</span></p>
-      <p>- Frame card = $1200 ± $500 <span className="colorunoa">1,5usd</span></p>
+      <p>- Photobook (cd+pb) = <span className="colorunoa">9usd</span> <span className="colordosa"> 8 usd</span></p>
+      <p>- Photocard = <span className="colorunoa">4usd</span> <span className="colordosa"> 4 usd</span> </p>
+      <p>- Frame card = <span className="colorunoa">1,5usd</span> <span className="colordosa"> 0,5usd</span></p>
     </div>
     <div className="infoalimg ">
     <img src="https://i.ebayimg.com/images/g/Ef0AAOSwoOxj~mxf/s-l1200.jpg" alt="Album Cover" />
