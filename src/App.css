@@ -1,0 +1,145 @@
+body{
+
+  font-family: 'Poppins', sans-serif;
+    background-color: rgb(230, 230, 230); /* Color de fondo base */
+    background-image: 
+      linear-gradient(0deg, rgba(0, 0, 0, 0.1) 1px, transparent 1px), /* Líneas horizontales */
+      linear-gradient(90deg, rgba(0, 0, 0, 0.1) 1px, transparent 1px); /* Líneas verticales */
+    background-size: 30px 30px; /* Tamaño de cada celda de la cuadrícula */
+}
+  
+
+.image {
+  max-width: 50%;
+  display: block;
+  margin-top: 2%;
+  box-shadow: 5px 5px 0px rgba(133, 171, 240);
+  border-radius: 2%;
+  border: 2px solid black;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column; /* Align items vertically */
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+  height: 100%;
+  margin-top: 5%;
+}
+
+.intro {
+  margin: 0 20%;
+}
+
+.textouno {
+  background-color: rgb(133, 171, 240);
+  font-size: 20px;
+  padding: 10px;
+  box-shadow: 5px 5px 0px rgb(114, 121, 133);
+  border-radius: 2%;
+  border: 2px solid black;
+}
+
+
+.textodos {
+  background-color: white;
+  font-size: 15px;
+  padding: 10px;
+  box-shadow: 5px 5px 0px rgba(133, 171, 240);
+  border-radius: 2%;
+  border: 2px solid black;
+  margin-bottom: 20px;
+  padding: 5px 
+}
+.textodos p, .textodos h5, .infodolar {
+  margin: 0;   /* Elimina márgenes entre los párrafos y encabezados */
+  padding: 5px 0;  /* Ajusta el relleno para un poco de espacio vertical */
+  background-color: white;
+}
+
+.coloruno {
+  color: rgb(0, 41, 175);
+  display: inline;
+  background-color: white;
+}
+
+.colordos {
+  color: rgb(0, 126, 0);
+  display: inline;
+  background-color: white;
+}
+
+.portadas {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 5px;
+  justify-content: center; /* Center items horizontally */
+  align-self: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.portada{
+  height: 100px;
+  width: 100px;
+  margin: 0;
+  justify-self: center; /* Center items horizontally */
+  align-self: center; /* Center items vertically */
+  box-shadow: 3.5px 3.5px 0px rgba(133, 171, 240);
+  border-radius: 3%;
+  border: 2px solid black;
+}
+
+.portadas a:hover{
+  transform: translate(5%, 5%);
+  box-shadow: none; /* Elimina el box-shadow cuando está en hover */
+}
+
+.image-container {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.image-container:hover .overlay {
+  opacity: 1;
+}
+
+h4 {
+  text-align: center;
+}
+
+.footer {
+  margin-left: 5%;
+  color: rgb(0, 0, 0);
+}
+
+.link {
+  text-decoration: none;
+  background-color: aliceblue;
+  color: rgb(0, 41, 175);
+}
+
+.link:hover{
+  background-color: rgb(178, 216, 250);
+}
+
+.redes {
+  color: rgb(0, 0, 0);
+  padding: 5px;
+  font-size: 18px;
+  justify-self: baseline;
+  align-self: baseline;
+}
