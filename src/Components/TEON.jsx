@@ -13,7 +13,11 @@ const TEON = ()=>{
             <p>-Photocard transparente = <span className="colordosa"> <span className="colorunoa">5usd</span> 8usd</span></p>
             <p>-Poster = <span className="colordosa">5usd</span></p>
           </div>
+<<<<<<< HEAD
           <img src="https://www.kyyo.co.uk/cdn/shop/products/Capture_d_ecran_2019-04-12_a_17.13.30.png?v=1555088231" alt="Album Cover"  style={{ boxShadow: "3.5px 3.5px 0px rgb(12, 137, 112)" }}/>
+=======
+          <img src="https://www.kyyo.co.uk/cdn/shop/products/Capture_d_ecran_2019-04-12_a_17.13.30.png?v=1555088231" alt="Album Cover" />
+>>>>>>> db2213b96f3ff2252f76c68200deb6fca05f60ca
         </div>
       </div>
       

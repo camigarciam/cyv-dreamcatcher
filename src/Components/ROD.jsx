@@ -16,7 +16,11 @@ const ROD = ()=>{
       <p className="ver">NORMAL </p>
       <p>-Photobook (cd+pb) = <span className="colorunoa">30usd <span className="colordosa">25-30usd</span></span></p>
     </div>
+<<<<<<< HEAD
     <img src="https://d3tvwjfge35btc.cloudfront.net/Assets/GalleryImage/15/118/L_g0114111815.jpg" alt="Album Cover" style={{ boxShadow: "3.5px 3.5px 0px rgb(189, 26, 26" }} />
+=======
+    <img src="https://d3tvwjfge35btc.cloudfront.net/Assets/GalleryImage/15/118/L_g0114111815.jpg" alt="Album Cover" />
+>>>>>>> db2213b96f3ff2252f76c68200deb6fca05f60ca
   </div>
 </div>
 

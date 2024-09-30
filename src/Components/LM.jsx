@@ -22,7 +22,11 @@ const LM =()=>{
   <p>-Photobook =<span className="colorunoa">10usd</span> <span className="colordosa"> 12 usd</span> </p>
   <p>-Photocard =$4800 <span className="colorunoa">4,5usd</span> <span className="colordosa"> 6 usd</span></p>
   </div>
+<<<<<<< HEAD
   <img src="https://krmerchs.com/cdn/shop/products/322fe10b4c352c8e46a4c69b36993f01.jpg?v=1620410632"style={{ boxShadow: "3.5px 3.5px 0px rgb(0, 0, 155)" }} />
+=======
+  <img src="https://krmerchs.com/cdn/shop/products/322fe10b4c352c8e46a4c69b36993f01.jpg?v=1620410632" />
+>>>>>>> db2213b96f3ff2252f76c68200deb6fca05f60ca
 </div>
         </div>
     )

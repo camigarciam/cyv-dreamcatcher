@@ -20,8 +20,13 @@ const SH = ()=>{
       <p>- Film photo =  <span className="colorunoa">2usd</span> <span className="colordosa"> 3 usd</span></p>
     </div>
     <div className="infoalimg ">
+<<<<<<< HEAD
     <img src="https://www.musicplaza.com/cdn/shop/products/EGE_954421d0-697e-4a50-9b54-ad059bd50c92_800x.jpg?v=1626676316" alt="Album Cover" style={{ boxShadow: "3.5px 3.5px 0px rgb(49, 145, 234)" }} />
     <img src="https://m.media-amazon.com/images/I/61KXsKFM+gS._AC_UF1000,1000_QL80_.jpg" alt="Album Cover"  style={{ boxShadow: "3.5px 3.5px 0px rgb(49, 145, 234)" }}/>
+=======
+    <img src="https://www.musicplaza.com/cdn/shop/products/EGE_954421d0-697e-4a50-9b54-ad059bd50c92_800x.jpg?v=1626676316" alt="Album Cover" />
+    <img src="https://m.media-amazon.com/images/I/61KXsKFM+gS._AC_UF1000,1000_QL80_.jpg" alt="Album Cover" />
+>>>>>>> db2213b96f3ff2252f76c68200deb6fca05f60ca
     </div>
   </div>
 </div>

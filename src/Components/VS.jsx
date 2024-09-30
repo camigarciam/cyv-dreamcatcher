@@ -27,8 +27,13 @@ const VS = ()=>{
             <p>- Stickers =  <span className="colorunoa">1usd</span> <span className="colordosa"> 0,5 usd</span></p>
     </div>
     <div className="infoalimg ">
+<<<<<<< HEAD
     <img src="https://preview.redd.it/dreamcatcher-9th-mini-album-villains-packaging-and-contents-v0-j1ia6bdhsvxb1.jpg?width=1000&format=pjpg&auto=webp&s=98566dd966d734a85b6ab4ba96b3b72e38ff4be5" alt="Album Cover"  style={{ boxShadow: "3.5px 3.5px 0px rgb(140, 12, 12" }} />
     <img src="https://kpopomo.shop/cdn/shop/products/2ea51fed36c24c8c151f47ab1e27016c.jpg?v=1699586864" alt="Album Cover"  style={{ boxShadow: "3.5px 3.5px 0px rgb(140, 12, 12" }}/>
+=======
+    <img src="https://preview.redd.it/dreamcatcher-9th-mini-album-villains-packaging-and-contents-v0-j1ia6bdhsvxb1.jpg?width=1000&format=pjpg&auto=webp&s=98566dd966d734a85b6ab4ba96b3b72e38ff4be5" alt="Album Cover" />
+    <img src="https://kpopomo.shop/cdn/shop/products/2ea51fed36c24c8c151f47ab1e27016c.jpg?v=1699586864" alt="Album Cover" />
+>>>>>>> db2213b96f3ff2252f76c68200deb6fca05f60ca
     </div>
   </div>
 </div>

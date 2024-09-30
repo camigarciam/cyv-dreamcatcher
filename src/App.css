@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
 
   font-family: 'Poppins', sans-serif;
@@ -8,14 +9,25 @@ body{
     background-size: 30px 30px; /* Tamaño de cada celda de la cuadrícula */
 }
   
+=======
+* {
+  background-color: rgb(131, 192, 228);
+  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Poppins', sans-serif;
+}
+>>>>>>> db2213b96f3ff2252f76c68200deb6fca05f60ca
 
 .image {
   max-width: 50%;
   display: block;
   margin-top: 2%;
+<<<<<<< HEAD
   box-shadow: 5px 5px 0px rgba(133, 171, 240);
   border-radius: 2%;
   border: 2px solid black;
+=======
+>>>>>>> db2213b96f3ff2252f76c68200deb6fca05f60ca
 }
 
 .App-header {
@@ -32,6 +44,7 @@ body{
 }
 
 .textouno {
+<<<<<<< HEAD
   background-color: rgb(133, 171, 240);
   font-size: 20px;
   padding: 10px;
@@ -55,18 +68,28 @@ body{
   margin: 0;   /* Elimina márgenes entre los párrafos y encabezados */
   padding: 5px 0;  /* Ajusta el relleno para un poco de espacio vertical */
   background-color: white;
+=======
+  background-color: rgb(81, 167, 218);
+  font-size: 20px;
+>>>>>>> db2213b96f3ff2252f76c68200deb6fca05f60ca
 }
 
 .coloruno {
   color: rgb(0, 41, 175);
   display: inline;
+<<<<<<< HEAD
   background-color: white;
+=======
+>>>>>>> db2213b96f3ff2252f76c68200deb6fca05f60ca
 }
 
 .colordos {
   color: rgb(0, 126, 0);
   display: inline;
+<<<<<<< HEAD
   background-color: white;
+=======
+>>>>>>> db2213b96f3ff2252f76c68200deb6fca05f60ca
 }
 
 .portadas {
@@ -79,12 +102,17 @@ body{
   margin-right: 10%;
 }
 
+<<<<<<< HEAD
 .portada{
+=======
+.portada {
+>>>>>>> db2213b96f3ff2252f76c68200deb6fca05f60ca
   height: 100px;
   width: 100px;
   margin: 0;
   justify-self: center; /* Center items horizontally */
   align-self: center; /* Center items vertically */
+<<<<<<< HEAD
   box-shadow: 3.5px 3.5px 0px rgba(133, 171, 240);
   border-radius: 3%;
   border: 2px solid black;
@@ -93,6 +121,9 @@ body{
 .portadas a:hover{
   transform: translate(5%, 5%);
   box-shadow: none; /* Elimina el box-shadow cuando está en hover */
+=======
+  box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.2);
+>>>>>>> db2213b96f3ff2252f76c68200deb6fca05f60ca
 }
 
 .image-container {
@@ -123,7 +154,11 @@ h4 {
 
 .footer {
   margin-left: 5%;
+<<<<<<< HEAD
   color: rgb(0, 0, 0);
+=======
+  color: rgb(247, 238, 238);
+>>>>>>> db2213b96f3ff2252f76c68200deb6fca05f60ca
 }
 
 .link {
@@ -137,7 +172,11 @@ h4 {
 }
 
 .redes {
+<<<<<<< HEAD
   color: rgb(0, 0, 0);
+=======
+  color: rgb(255, 255, 255);
+>>>>>>> db2213b96f3ff2252f76c68200deb6fca05f60ca
   padding: 5px;
   font-size: 18px;
   justify-self: baseline;

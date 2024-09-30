@@ -26,7 +26,11 @@ const VRS = ()=>{  return(
         <p>- Stickers =  <span className="colorunoa">1usd</span> <span className="colordosa"> 0,5 usd</span></p>
 </div>
 <div className="infoalimg ">
+<<<<<<< HEAD
 <img src="https://i.ytimg.com/vi/W1pakzCpyF4/maxresdefault.jpg" alt="Album Cover"  style={{ boxShadow: "3.5px 3.5px 0px rgb(55, 146, 243)" }}/>
+=======
+<img src="https://i.ytimg.com/vi/W1pakzCpyF4/maxresdefault.jpg" alt="Album Cover" />
+>>>>>>> db2213b96f3ff2252f76c68200deb6fca05f60ca
 </div>
 </div>
 </div>

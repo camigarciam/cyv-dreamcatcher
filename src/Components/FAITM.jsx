@@ -11,7 +11,11 @@ const FAITM = ()=>{
       <p>-Photocard = <span className="colordosa">40-50 usd</span></p>
       <p>-Poster= ?</p>
     </div>
+<<<<<<< HEAD
     <img src="https://i.ebayimg.com/images/g/gB8AAOSwTJFkSdg8/s-l1200.webp" style={{ boxShadow: "3.5px 3.5px 0px rgb(203, 131, 131)" }}/>
+=======
+    <img src="https://i.ebayimg.com/images/g/gB8AAOSwTJFkSdg8/s-l1200.webp" />
+>>>>>>> db2213b96f3ff2252f76c68200deb6fca05f60ca
   </div>
 </div>
 
