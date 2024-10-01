@@ -20,11 +20,7 @@ const ASU = ()=>{
             <p>- Member solo card/ Solo CD = <span className="colorunoa">2usd</span> <span className="colordosa"> 3 usd</span></p>
             <p>- Poster preventa = <span className="colorunoa">1,25usd</span> <span className="colordosa"> 1 usd</span></p>
           </div>
-<<<<<<< HEAD
           <img src="https://img.ws.mms.shopee.ph/15b02d308feab37d8ef7a0f4459b89f4" alt="Album Cover"style={{ boxShadow: "3.5px 3.5px 0px rgb(240, 203, 109)" }} />
-=======
-          <img src="https://img.ws.mms.shopee.ph/15b02d308feab37d8ef7a0f4459b89f4" alt="Album Cover" />
->>>>>>> db2213b96f3ff2252f76c68200deb6fca05f60ca
         </div>
       </div>
       )

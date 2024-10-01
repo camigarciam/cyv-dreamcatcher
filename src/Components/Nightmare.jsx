@@ -11,11 +11,7 @@ const Nightmare =()=>{
       <p>-Photocard =<span className="colordosa">60 usd</span> (base)</p>
       <p>-Poster= ?</p>
     </div>
-<<<<<<< HEAD
           <img src="https://i.ebayimg.com/images/g/XPUAAOSwg1Jlil9U/s-l1200.jpg" alt="Album Cover" style={{ boxShadow: "3.5px 3.5px 0px rgb(98, 109, 113)" }} />
-=======
-          <img src="https://i.ebayimg.com/images/g/XPUAAOSwg1Jlil9U/s-l1200.jpg" alt="Album Cover" />
->>>>>>> db2213b96f3ff2252f76c68200deb6fca05f60ca
         </div>
       </div>
       

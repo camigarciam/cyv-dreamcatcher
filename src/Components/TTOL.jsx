@@ -12,11 +12,7 @@ const TTOL= ()=>{
             <p>- Photobook (cd+pb) = <span className="colorunoa">20usd</span> <span className="colordosa"> 30 usd</span></p>
             <p>- Photocard =<span className="colorunoa">7usd</span> <span className="colordosa"> 6 usd</span></p>
           </div>
-<<<<<<< HEAD
           <img src="https://d3tvwjfge35btc.cloudfront.net/Assets/GalleryImage/46/429/L_g0122942946.jpg" alt="Album Cover"  style={{ boxShadow: "3.5px 3.5px 0px rgb(87, 53, 3)" }}/>
-=======
-          <img src="https://d3tvwjfge35btc.cloudfront.net/Assets/GalleryImage/46/429/L_g0122942946.jpg" alt="Album Cover" />
->>>>>>> db2213b96f3ff2252f76c68200deb6fca05f60ca
         </div>
       </div>
     )      

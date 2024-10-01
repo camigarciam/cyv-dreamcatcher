@@ -26,11 +26,7 @@ const VRS = ()=>{  return(
         <p>- Stickers =  <span className="colorunoa">1usd</span> <span className="colordosa"> 0,5 usd</span></p>
 </div>
 <div className="infoalimg ">
-<<<<<<< HEAD
-<img src="https://i.ytimg.com/vi/W1pakzCpyF4/maxresdefault.jpg" alt="Album Cover"  style={{ boxShadow: "3.5px 3.5px 0px rgb(55, 146, 243)" }}/>
-=======
-<img src="https://i.ytimg.com/vi/W1pakzCpyF4/maxresdefault.jpg" alt="Album Cover" />
->>>>>>> db2213b96f3ff2252f76c68200deb6fca05f60ca
+<img src="https://external-preview.redd.it/dreamcatcher-10th-mini-album-virtuous-unboxing-all-versions-v0-PPxF30NdX04pgCHdj2oJHWCrbTxHneaTPSbCMgn2CGg.jpg?format=pjpg&auto=webp&s=03f5e3d0948286b7c14a2ef5bcfe71e70759a00a" alt="Album Cover"  style={{ boxShadow: "3.5px 3.5px 0px rgb(55, 146, 243)" }}/>
 </div>
 </div>
 </div>

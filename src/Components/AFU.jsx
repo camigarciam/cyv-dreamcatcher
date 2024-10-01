@@ -25,11 +25,7 @@ const AFU = ()=>{
       <p>- Photocard = <span className="colorunoa"> 3,5 usd</span> <span className="colordosa"> 5 usd</span></p>
       <p>- PVC Photocard = <span className="colorunoa"> 4 usd</span> <span className="colordosa"> 5 usd</span></p>
     </div>
-<<<<<<< HEAD
     <img src="https://down-ph.img.susercontent.com/file/ph-11134201-7qukw-lepj8yq52xk97c" alt="Album Cover" style={{ boxShadow: "3.5px 3.5px 0px rgb(217, 0, 0)" }} />
-=======
-    <img src="https://down-ph.img.susercontent.com/file/ph-11134201-7qukw-lepj8yq52xk97c" alt="Album Cover" />
->>>>>>> db2213b96f3ff2252f76c68200deb6fca05f60ca
   </div>
 </div>
 )
