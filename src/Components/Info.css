@@ -31,6 +31,7 @@
     box-shadow: 3.5px 3.5px 0px rgba(133, 171, 240);
     border-radius: 3%;
     border: 2px solid black;
+    max-height: fit-content;
   
   }
   
@@ -48,10 +49,11 @@
     flex-direction: column;
     justify-content: center;
     align-self: center;
+    max-width: fit-content;
   }
   .infoal img{
     max-width: 300px;
-    max-height: 300px;
+    max-height: 400px;
     height: auto;
     margin-left: 10px;
     margin-bottom: 20px;
@@ -147,7 +149,7 @@
 }
 
 .infotextal img {
-  max-width: 100px;
+  max-width: 200px;
   width: 100%; /* Ensure the image does not exceed the container */
   padding:10px;
   align-self: center;

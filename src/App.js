@@ -62,7 +62,8 @@ function App() {
             <h5>El dólar se actualiza todos los días!</h5>
           </div>
         </div>
-        
+
+        <h4>Clickea un álbum para ver los precios!</h4>
         <div className="albums"ref={albumContainerRef}>
           <Link to="/NIGHTMARE">
             <div className="image-container">
@@ -241,7 +242,7 @@ function App() {
                 title="Vision"
                 style={{ boxShadow: "3.5px 3.5px 0px rgb(172, 71, 116)" }}
               />
-              <div className="overlay">Vision</div>
+              <div className="overlay">Versus: Villains</div>
             </div>
           </Link>
           <Link to="/VRS">
@@ -253,7 +254,7 @@ function App() {
                 title="Vibes"
                 style={{ boxShadow: "3.5px 3.5px 0px rgb(133, 171, 240)" }}
               />
-              <div className="overlay">Virtuous</div>
+              <div className="overlay">Versus: Virtuous</div>
             </div>
           </Link>
           <Link to="/MERCH">
@@ -282,7 +283,6 @@ function App() {
           </Link>
         </div>
 
-        <h4>Clickea un álbum para ver los precios!</h4>
 
         <Routes>
           <Route path="/NIGHTMARE" element={<Nightmare />} />
@@ -312,6 +312,7 @@ function App() {
             <a className="redes" href='https://twitter.com/ArgDreamcatcher'><FaTwitter /></a>
             <a className='redes' href='https://www.facebook.com/DreamcatcherArgentina'><FaFacebookF /></a>
           </p>
+          <p>Ver 3.2.1</p>
         </footer>
       </>
     </Router>

@@ -18,6 +18,7 @@ const SH = ()=>{
       <p>- Photobook (cd+pb) = <span className="colorunoa">8usd</span> <span className="colordosa"> 7 usd</span></p>
       <p>- Photocard =  <span className="colorunoa">3,5usd</span> <span className="colordosa"> 4 usd</span> </p>
       <p>- Film photo =  <span className="colorunoa">2usd</span> <span className="colordosa"> 3 usd</span></p>
+      <img src="https://preview.redd.it/v6zrqbnesbf71.jpg?width=1080&crop=smart&auto=webp&s=5763e7d5e62b904a5b2dfa2c12a5b26b60f11757" alt="Album Cover"  style={{ boxShadow: "3.5px 3.5px 0px rgb(49, 145, 234)" }}/>
     </div>
     <div className="infoalimg ">
     <img src="https://www.musicplaza.com/cdn/shop/products/EGE_954421d0-697e-4a50-9b54-ad059bd50c92_800x.jpg?v=1626676316" alt="Album Cover" style={{ boxShadow: "3.5px 3.5px 0px rgb(49, 145, 234)" }} />

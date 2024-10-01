@@ -12,6 +12,7 @@ const Nightmare =()=>{
       <p>-Poster= ?</p>
     </div>
           <img src="https://i.ebayimg.com/images/g/XPUAAOSwg1Jlil9U/s-l1200.jpg" alt="Album Cover" style={{ boxShadow: "3.5px 3.5px 0px rgb(98, 109, 113)" }} />
+          <img src="https://i.ebayimg.com/images/g/CZoAAOSwzcBkh-Oa/s-l400.jpg" alt="Album Cover" style={{ boxShadow: "3.5px 3.5px 0px rgb(98, 109, 113)" }} />
         </div>
       </div>
       

@@ -32,8 +32,7 @@ const AFRU = ()=>{
             <p>- PVC Photocard =<span className="colorunoa">3,5usd</span> <span className="colordosa"> 5</span></p>
           </div>
           <div className="infoalimg ">
-    <img src="https://media.karousell.com/media/photos/products/2023/7/2/wts_dreamcatcher_apocalypse_fr_1688289129_ca20c93f_progressive.jpg" alt="Album Cover" style={{ boxShadow: "3.5px 3.5px 0px rgb(82, 228, 42)" }}/>
-    <img src="https://sokollab.co.uk/cdn/shop/files/DREAMCATCHER-8THMINIALBUMAPOCALYPSEFROMUSPLATFORMVER..webp?v=1684324843" alt="Album Cover" style={{ boxShadow: "3.5px 3.5px 0px rgb(82, 228, 42)" }} />
+    <img src="https://i.pinimg.com/736x/ed/53/62/ed5362f89bf6f9af52c58b269dca85bc.jpg" alt="Album Cover" style={{ boxShadow: "3.5px 3.5px 0px rgb(82, 228, 42)" }} />
     </div>
         </div>
       </div>

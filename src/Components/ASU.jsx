@@ -21,6 +21,7 @@ const ASU = ()=>{
             <p>- Poster preventa = <span className="colorunoa">1,25usd</span> <span className="colordosa"> 1 usd</span></p>
           </div>
           <img src="https://img.ws.mms.shopee.ph/15b02d308feab37d8ef7a0f4459b89f4" alt="Album Cover"style={{ boxShadow: "3.5px 3.5px 0px rgb(240, 203, 109)" }} />
+          <img src="https://i.pinimg.com/736x/3a/c7/38/3ac7383d8e16e19eb2bc9b346ea8d245.jpg" alt="Album Cover"style={{ boxShadow: "3.5px 3.5px 0px rgb(240, 203, 109)" }} />
         </div>
       </div>
       )

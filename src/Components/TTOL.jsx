@@ -13,6 +13,7 @@ const TTOL= ()=>{
             <p>- Photocard =<span className="colorunoa">7usd</span> <span className="colordosa"> 6 usd</span></p>
           </div>
           <img src="https://d3tvwjfge35btc.cloudfront.net/Assets/GalleryImage/46/429/L_g0122942946.jpg" alt="Album Cover"  style={{ boxShadow: "3.5px 3.5px 0px rgb(87, 53, 3)" }}/>
+          <img src="https://external-preview.redd.it/hlei0JWh82oDzsSaUcnEchTdHHLK2NnWSMESuxE9RfI.jpg?auto=webp&s=e0503739a48a8bcbbd4e3489c8dd4798010111c8" alt="Album Cover"  style={{ boxShadow: "3.5px 3.5px 0px rgb(87, 53, 3)" }}/>
         </div>
       </div>
     )      

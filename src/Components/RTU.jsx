@@ -19,8 +19,7 @@ const RTU=()=>{
       <p>- Frame card = <span className="colorunoa">1,5usd</span> <span className="colordosa"> 0,5usd</span></p>
     </div>
     <div className="infoalimg ">
-    <img src="https://i.ebayimg.com/images/g/Ef0AAOSwoOxj~mxf/s-l1200.jpg" alt="Album Cover"  style={{ boxShadow: "3.5px 3.5px 0px rgb(186, 186, 215" }}/>
-    <img src="https://media.karousell.com/media/photos/products/2021/3/22/dreamcatcher__mini_album_vol6__1616434436_65101865_progressive" alt="Album Cover" style={{ boxShadow: "3.5px 3.5px 0px rgb(186, 186, 215" }} />
+    <img src="https://pbs.twimg.com/media/EvYoDopXEAMelKI.jpg:large" alt="Album Cover" style={{ boxShadow: "3.5px 3.5px 0px rgb(186, 186, 215" }} />
     </div>
   </div>
 </div>

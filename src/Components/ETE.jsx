@@ -13,6 +13,7 @@ const ETE = ()=>{
       <p>-Poster= <span className="colorunoa">3,75usd</span> </p> <span className="colordosa">5usd</span>
     </div>
     <img src="https://media.karousell.com/media/photos/products/2023/10/7/_wts__dreamcatcher_escape_the__1696651819_92ac62f4.jpg" alt="Album Cover" style={{ boxShadow: "3.5px 3.5px 0px rgb(26, 162, 172)" }}/>
+    <img src="https://kpopcollectorsguide.weebly.com/uploads/2/9/1/9/29199653/dguiqvswaaacs0t_orig.jpg" alt="Album Cover" style={{ boxShadow: "3.5px 3.5px 0px rgb(26, 162, 172)" }}/>
   </div>
 </div>
 

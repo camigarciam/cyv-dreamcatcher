@@ -83,15 +83,37 @@ const Merch = () => {
       ]
     },
     {
-      title: "Merch conciertos",
+      title: "Apocalypse mini concert",
       items: [
         { name: "Apocalypse mini concert pc", price1: "8usd", price2: null },
+      ],
+      images: [
+        "https://preview.redd.it/dreamcatcher-2nd-album-apocalypse-save-us-mini-concert-v0-n69trljpwyy81.jpg?width=1080&crop=smart&auto=webp&s=0826bfc384d6d4a4694e198f847808df69605aa0"
+      ]
+    },
+    {
+      title: "Apocalypse halloween concert",
+      items: [
         { name: "Apocalypse halloween", price1: "6-8usd", price2: null },
         { name: "Apocalypse halloween LD", price1: "35usd", price2: null },
-        { name: "Lucky cards 7 doors tours", price1: "5usd", price2: null },
-        { name: "7 doors tours set (pc + tarot card+postal)", price1: "8usd", price2: null }
       ],
-      images: []
+      images: [
+        "https://i.redd.it/2f7779xqnpw91.jpg",
+        "https://i.ebayimg.com/images/g/skMAAOSwjoBkk~7d/s-l400.jpg",
+        "https://preview.redd.it/dreamcatcher-apocalypse-broken-halloween-pop-up-store-mask-v0-h6mj5w3q7hw91.jpg?width=1080&crop=smart&auto=webp&s=b1165faa8115360df6602561b9d5e94437e85998"
+      ]
+    },
+    {
+      title: "7 doors tour",
+      items: [
+        { name: "Lucky cards", price1: "3usd", price2: "3.5usd" },
+        { name: "7 doors tours set (pc + tarot card+postal)", price1: "8usd", price2: null },
+        { name: "Trading cards", price1: "5usd", price2: "4.5usd" },
+        { name: "Hoodie cards", price1: "15usd", price2: null},
+      ],
+      images: [
+        "https://pbs.twimg.com/media/GGvS4K_WsAAVywg.jpg:large"
+      ]
     },
     {
       title: "SEASON GREETINGS 2023",
