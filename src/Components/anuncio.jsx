@@ -41,8 +41,8 @@ const FirstTimeAnnouncement = () => {
                     <li>Agregado de la reimpresión de Nightmare y Fall Asleep in the mirror (TBA)</li>
                     <li>Agregado de Fallen angels (TBA)</li>
                 </ul>
-                Última actualización: 10/10/2021 <br/>
-                Versión 3.3.1 <br/>
+                Última actualización: 07/10/2023 <br/>
+                Versión 3.3.2 <br/>
                 <img src="https://media1.tenor.com/m/cf3FUiZJhLoAAAAd/gahyeon-dreamcatcher.gif" alt="GIF Gahyun"  style={{ width: '100px', height: '100px' }}  />
             </p>
       <button onClick={handleClose}>Cerrar</button>
