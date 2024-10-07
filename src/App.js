@@ -23,6 +23,8 @@ import { FaInstagram } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa6";
 import { FaFacebookF } from "react-icons/fa6";
 import FAQ from './Components/FAQ';
+import FirstTimeAnnouncement from './Components/anuncio';
+
 
 function App() {
   const albumContainerRef = React.useRef(null); // Definir la referencia para el contenedor del álbum
@@ -38,6 +40,7 @@ function App() {
     <Router>
       <>
         <header className="App-header">
+        <FirstTimeAnnouncement />
           <h1>Precios Dreamcatcher Argentina</h1>
           <img
             className="image"
@@ -312,7 +315,7 @@ function App() {
             <a className="redes" href='https://twitter.com/ArgDreamcatcher'><FaTwitter /></a>
             <a className='redes' href='https://www.facebook.com/DreamcatcherArgentina'><FaFacebookF /></a>
           </p>
-          <p>Ver 3.2.1</p>
+          <p>Ver 3.3.1</p>
         </footer>
       </>
     </Router>

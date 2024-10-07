@@ -38,7 +38,11 @@ const FAQ = ()=>{
             <h3 className="preg">Cómo hiciste la página?</h3>
             <p className="res"> Está codeada y subida en firebase! <a className="link" href="https://github.com/camigarciam/cyv-dreamcatcher"> mirá el código completo acá! (github)</a>
             </p>
-            
+            </div>
+            <div className="pregunta">
+            <h3 className="preg"> Gracias por tanto! quiero colaborar</h3>
+            <p className="res"> Ya un "gracias" es suficiente pero si queres colaborar con un cafesito🥹 <a className="link" href="link.mercadopago.com.ar/suikhan"> link a mercado pago</a>
+            </p>
             </div>
         </div>
         </div>

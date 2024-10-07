@@ -148,3 +148,21 @@ h4 {
   justify-self: baseline;
   align-self: baseline;
 }
+
+
+button{
+  background-color: rgb(133, 171, 240);
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  border: none;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 0px rgb(114, 121, 133);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover{
+  transform: translate(5%, 5%);
+  box-shadow: none;
+}

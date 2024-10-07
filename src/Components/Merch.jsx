@@ -190,7 +190,25 @@ const Merch = () => {
       images: [
         "https://i.ebayimg.com/images/g/noUAAOSwCkRmpHiD/s-l1200.jpg"
       ]
-    }
+    },
+    {
+      title: "DREAM OF ANGELS",
+      items: [
+        { name: "inclusiones", price1: null, price2: "TBA" }
+      ],
+      images: [
+        "https://pbs.twimg.com/media/GUHOh-0XQAApu3L?format=jpg&name=large"
+      ]
+    },
+    {
+      title: "FALLEN ANGELS",
+      items: [
+        { name: "inclusiones", price1: null, price2: "TBA" }
+      ],
+      images: [
+        "https://media.ktown4u.com/products/resize/thumbnail/2024/08/05/xEm92h.jpg"
+      ]
+    },
   ];
   
   // Ordenar el array por título de forma alfabética
