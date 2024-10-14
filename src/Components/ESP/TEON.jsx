@@ -1,3 +1,4 @@
+import Boton from "./Boton";
 import "./Info.css"
 
 const TEON = ()=>{
@@ -6,6 +7,7 @@ const TEON = ()=>{
         <h1 className="title">THE END OF NIGHTMARE</h1>
         <div className="infoal">
           <div className="infotext">
+            <Boton/>
             <p className="ver">Beneficio de Preventa (POBs) = ?</p>
             <p className="ver">NORMAL (ver. Insatiability-Stability)</p>
             <p>-Photobook (cd+pb) = <span className="colordosa"> <span className="colorunoa">45usd</span> 40usd</span></p>

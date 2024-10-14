@@ -166,3 +166,29 @@ button:hover{
   transform: translate(5%, 5%);
   box-shadow: none;
 }
+
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2%;
+}
+
+
+.idioma{
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  max-width: 100px;
+  max-height: 100px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 10px;
+}
+
+.idioma:hover{
+  transform: translate(5%, 5%);
+  box-shadow: none;
+}
+
+.idiomas{
+  margin-top: 10px;
+}

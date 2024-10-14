@@ -1,3 +1,4 @@
+import Boton from "./Boton";
 import "./Info.css"
 
 const TTOL= ()=>{
@@ -6,6 +7,7 @@ const TTOL= ()=>{
         <h1 className="title">DYSTOPIA: THE TREE OF LANGUAGE</h1>
         <div className="infoal">
           <div className="infotext">
+            <Boton/>
             <p>- Beneficio de Preventa (POBs) = <span className="colorunoa">18usd (base)</span> <span className="colordosa"> 25 usd</span></p>
             <p>- Poster de preventa = <span className="colorunoa">2usd</span> <span className="colordosa"> 5 usd</span></p>
             <p className="ver">NORMAL (ver. E,V,I,L)</p>

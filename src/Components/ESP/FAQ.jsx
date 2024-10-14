@@ -1,6 +1,7 @@
 import { BsFillCollectionFill } from "react-icons/bs";
 import "./Info.css"
 import { RiSurveyLine } from "react-icons/ri";
+import Boton from "./Boton";
 
 const FAQ = ()=>{
     return(
@@ -8,6 +9,7 @@ const FAQ = ()=>{
             <h1 className="title"> Información de Interes / FAQs</h1>
             <div className="infoal">
         <div className="infotext">
+            <Boton/>
         <p><a className='link' href="https://drive.google.com/drive/folders/1bSYCJtbrtS2vTd3IWCVSd10f0f0dFH8W?usp=sharing">
           <BsFillCollectionFill /> Photocard Templates 
           </a> </p>

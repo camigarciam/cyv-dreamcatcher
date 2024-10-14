@@ -1,10 +1,12 @@
+import Button from "./Button";
 import "./Info.css"
 
-const Prequel = ()=>{
+const Prequele = ()=>{
     return(<div className="infoalbum">
     <h1 className="title">PREQUEL</h1>
     <div className="infoal">
       <div className="infotext">
+        <Button/>
         <p className="ver">NORMAL (ver. Before-After)</p>
         <p>-Photobook (cd+pb) = <span className="colordosa">70-80 usd</span></p>
         <p>-Photocard = <span className="colordosa">30 usd</span></p>
@@ -17,4 +19,4 @@ const Prequel = ()=>{
   )
 }
 
-export default Prequel;
+export default Prequele;

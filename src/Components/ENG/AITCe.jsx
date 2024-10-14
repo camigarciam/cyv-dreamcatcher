@@ -1,12 +1,14 @@
+import Button from "./Button";
 import "./Info.css"
 
-const AITC = ()=>{
+const AITCe = ()=>{
     return(
         <div className="infoalbum">
   <h1 className="title">ALONE IN THE CITY</h1>
   <div className="infoal">
     <div className="infotext">
-      <p>Beneficio de Preventa (POBs) = ?</p>
+      <Button/>
+      <p>POBs = ?</p>
       <p className="ver">NORMAL (ver. Light-Shade)</p>
       <p>-Photobook (cd+pb) = <span className="colorunoa">40usd </span><span className="colordosa"> 40-50usd</span></p>
       <p>-Photocard = <span className="colorunoa"> 12 usd</span> <span className="colordosa"> 10 usd</span></p>
@@ -22,4 +24,4 @@ const AITC = ()=>{
   )
 }
 
-export default AITC;
+export default AITCe;

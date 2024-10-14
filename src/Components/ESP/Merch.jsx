@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./Info.css";
+import Boton from "./Boton";
 
 const Merch = () => {
   // Estado para el término de búsqueda
@@ -224,6 +225,7 @@ const Merch = () => {
   return (
     <div className="infoalbumtext">
       <h1 className="title">MERCH</h1>
+      <Boton />
 
       <input
         type="text"

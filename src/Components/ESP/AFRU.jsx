@@ -1,3 +1,4 @@
+import Boton from "./Boton";
 import "./Info.css"
 
 const AFRU = ()=>{
@@ -6,6 +7,7 @@ const AFRU = ()=>{
         <h1 className="title">APOCALYPSE: FROM US</h1>
         <div className="infoal">
           <div className="infotext">
+            <Boton/>
             <p>- Beneficio de Preventa (POBs) = desde <span className="colorunoa">10usd</span><span className="colordosa"> 8 usd</span></p>
             <p className="ver">LIMITADO (ver. W)</p>
             <p>- Photobook Limitado (cd+pb) =<span className="colorunoa">9,5usd</span> <span className="colordosa"> 8 usd</span></p>

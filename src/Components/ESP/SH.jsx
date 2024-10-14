@@ -1,3 +1,4 @@
+import Boton from "./Boton";
 import "./Info.css"
 
 const SH = ()=>{
@@ -6,6 +7,7 @@ const SH = ()=>{
   <h1 className="title">SUMMER HOLIDAY</h1>
   <div className="infoal">
     <div className="infotext">
+      <Boton/>
       <p>- Beneficio de Preventa (POBs) = desde <span className="colorunoa">10usd</span> <span className="colordosa"> 10 usd</span></p>
       <p>- Poster de preventa = <span className="colorunoa">1,5usd</span> <span className="colordosa"> 1 usd</span></p>
       <p>- Stickers = <span className="colorunoa">0,5usd</span> <span className="colordosa"> 0,5 usd</span></p>

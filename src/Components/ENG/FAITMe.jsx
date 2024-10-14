@@ -1,16 +1,18 @@
+import Button from "./Button";
 import "./Info.css"
 
-const FAITM = ()=>{
+const FAITMe = ()=>{
     return(
         <div className="infoalbum">
   <h1 className="title">FALL ASLEEP IN THE MIRROR</h1>
   <div className="infoal">
     <div className="infotext">
-      <p className="ver">NORMAL (1era impresión)</p>
+      <Button/>
+      <p className="ver">NORMAL (1st press)</p>
       <p>-Photobook (cd+pb) = <span className="colordosa">80 usd</span> (base)</p>
       <p>-Photocard = <span className="colordosa">40-50 usd</span></p>
       <p>-Poster= ?</p>
-      <p className="ver">NORMAL (reimpresión)</p>
+      <p className="ver">NORMAL (reprint)</p>
       <p>-Photobook (cd+pb) = <span className="colordosa">TBA</span> (TBA)</p>
       <p>-Photocard = <span className="colordosa">TBA</span></p>
       <p>-Poster= ?</p>
@@ -24,4 +26,4 @@ const FAITM = ()=>{
 
 }
 
-export default FAITM;
+export default FAITMe;

@@ -1,16 +1,18 @@
+import Button from "./Button"
 import "./Info.css"
 
-const RTU=()=>{
+const RTUe=()=>{
     return(
         <div className="infoalbum">
   <h1 className="title">DYSTOPIA: ROAD TO UTOPIA</h1>
   <div className="infoal">
     <div className="infotext">
-      <p>- Beneficio de Preventa (POBs) =  desde <span className="colorunoa">10usd</span> <span className="colordosa"> 8 usd</span></p>
-      <p>- Poster de preventa= <span className="colorunoa">1,75usd</span> <span className="colordosa"> 5 usd</span></p>
-      <p className="ver">LIMITADO (ver. D)</p>
-      <p>- Photobook Limitado (cd+pb) = <span className="colorunoa">12,5usd</span> <span className="colordosa"> 10 usd</span></p>
-      <p>- Photocard limitada = <span className="colorunoa">6,5usd</span> <span className="colordosa"> 10 usd</span></p>
+      <Button/>
+      <p>- POBs =  fron <span className="colorunoa">10usd</span> <span className="colordosa"> 8 usd</span></p>
+      <p>- POB poster= <span className="colorunoa">1,75usd</span> <span className="colordosa"> 5 usd</span></p>
+      <p className="ver">LIMITED (ver. D)</p>
+      <p>- Limited photobook (cd+pb) = <span className="colorunoa">12,5usd</span> <span className="colordosa"> 10 usd</span></p>
+      <p>- Photocard= <span className="colorunoa">6,5usd</span> <span className="colordosa"> 10 usd</span></p>
       <p>- Cover-up Card =  <span className="colorunoa">3usd</span> <span className="colordosa"> 5 usd</span></p>
       <p>- DIY Dreamcatcher kit = <span className="colorunoa">2,5usd</span> <span className="colordosa"> 5 usd</span></p>
       <p className="ver">NORMAL (ver. A,R,K)</p>
@@ -28,5 +30,5 @@ const RTU=()=>{
     
 }
 
-export default RTU
+export default RTUe
 

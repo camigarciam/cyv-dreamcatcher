@@ -1,16 +1,18 @@
+import Button from "./Button"
 import "./Info.css"
 
-const Nightmare =()=>{
+const Nightmaree =()=>{
     return(
         <div className="infoalbum">
   <h1 className="title">NIGHTMARE</h1>
   <div className="infoal">
     <div className="infotext">
-      <p className="ver">NORMAL (1era impresión)</p>
+      <Button/>
+      <p className="ver">NORMAL (1st print)</p>
       <p>-Photobook (cd+pb) = <span className="colordosa">300 usd</span> (base)</p>
       <p>-Photocard =<span className="colordosa">60 usd</span> (base)</p>
       <p>-Poster= ?</p>
-      <p className="ver">NORMAL (reimpresión)</p>
+      <p className="ver">NORMAL (reprint)</p>
       <p>-Photobook (cd+pb) = <span className="colordosa">TBA</span> TBA</p>
       <p>-Photocard =<span className="colordosa">TBA</span> (TBH)</p>
       <p>-Poster= ?</p>
@@ -23,4 +25,4 @@ const Nightmare =()=>{
     )
 }
 
-export default Nightmare
+export default Nightmaree

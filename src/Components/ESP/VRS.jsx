@@ -1,3 +1,4 @@
+import Boton from "./Boton";
 import "./Info.css"
 
 const VRS = ()=>{  return(
@@ -5,6 +6,7 @@ const VRS = ()=>{  return(
 <h1 className="title">Versus: VirtuouS </h1>
 <div className="infoal">
 <div className="infotext">
+    <Boton/>
 <p>- Beneficio de Preventa (POBs) = desde <span className="colorunoa">8usd</span> <span className="colordosa"> 10 usd</span></p>
         <p className="ver">LIMITADO (ver. B)</p>
         <p>- Photobook Limitado (cd+pb) = <span className="colorunoa">13usd</span> <span className="colordosa"> 10 usd</span></p>
