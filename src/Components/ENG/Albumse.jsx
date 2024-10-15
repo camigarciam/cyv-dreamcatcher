@@ -21,6 +21,7 @@ import VSe from "./VSe";
 import VRSe from "./VRSe";
 import FAQe from "./FAQe";
 import Merche from "./Merche";
+import Japan from "./Japan";
 
 function Albumse() {
   const albumContainerRef = React.useRef(null); // Definir la referencia para el contenedor del álbum
@@ -226,6 +227,18 @@ function Albumse() {
               <div className="overlay">Versus: Virtuous</div>
             </div>
           </Link>
+          <Link to="/JAPAN"onClick={handleAlbumClick}>
+            <div className="image-container">
+              <img
+                className="portada"
+                src="https://img.hmv.co.jp/image/jacket/400/0000100/1/1/438.jpg"
+                alt="Japanese albums "
+                title="Japanese albums"
+                style={{ boxShadow: "3.5px 3.5px 0px rgb(133, 171, 240)" }}
+              />
+              <div className="overlay">Japanese Albums</div>
+            </div>
+          </Link>
           <Link to="/MERCHe"onClick={handleAlbumClick}>
             <div className="image-container">
               <img
@@ -251,26 +264,6 @@ function Albumse() {
             </div>
           </Link>
         </div>
-<Routes>
-          <Route path="/NIGHTMAREe" element={<Nightmaree/>} />
-          <Route path="/FAITMe" element={<FAITMe/>} />
-          <Route path="/PREQUELe" element={<Prequele />} />
-          <Route path="/ETEe" element={<ETEe />} />
-          <Route path="/AITCe" element={<AITCe />} />
-          <Route path="/TEONe" element={<TEONe />} />
-          <Route path="/RODe" element={<RODe />} />
-          <Route path="/TTOLe" element={<TTOLe />} />
-          <Route path="/LMe" element={<LMe />} />
-          <Route path="/RTUe" element={<RTUe />} />
-          <Route path="/SHe" element={<SHe />} />
-          <Route path="/ASUe" element={<ASUe />} />
-          <Route path="/AFUe" element={<AFUe />} />
-          <Route path="/AFRUe" element={<AFRUe />} />
-          <Route path="/VSe" element={<VSe />} />
-          <Route path="/VRSe" element={<VRSe />} />
-          <Route path="/FAQe" element={<FAQe />} />
-          <Route path="/Merche" element={<Merche />} />
-        </Routes>
               
       </>
   );

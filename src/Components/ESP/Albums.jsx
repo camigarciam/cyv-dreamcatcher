@@ -227,6 +227,18 @@ function Albums() {
               <div className="overlay">Versus: Virtuous</div>
             </div>
           </Link>
+          <Link to="/JAPAN"onClick={handleAlbumClick}>
+            <div className="image-container">
+              <img
+                className="portada"
+                src="https://img.hmv.co.jp/image/jacket/400/0000100/1/1/438.jpg"
+                alt="Japanese albums "
+                title="Japanese albums"
+                style={{ boxShadow: "3.5px 3.5px 0px rgb(133, 171, 240)" }}
+              />
+              <div className="overlay">Albumes japoneses</div>
+            </div>
+          </Link>
           <Link to="/MERCH"onClick={handleAlbumClick}>
             <div className="image-container">
               <img
@@ -252,26 +264,6 @@ function Albums() {
             </div>
           </Link>
         </div>
-<Routes>
-          <Route path="/NIGHTMARE" element={<Nightmare />} />
-          <Route path="/FAITM" element={<FAITM />} />
-          <Route path="/PREQUEL" element={<Prequel />} />
-          <Route path="/ETE" element={<ETE />} />
-          <Route path="/AITC" element={<AITC />} />
-          <Route path="/TEON" element={<TEON />} />
-          <Route path="/ROD" element={<ROD />} />
-          <Route path="/TTOL" element={<TTOL />} />
-          <Route path="/LM" element={<LM />} />
-          <Route path="/RTU" element={<RTU />} />
-          <Route path="/SH" element={<SH />} />
-          <Route path="/ASU" element={<ASU />} />
-          <Route path="/AFU" element={<AFU />} />
-          <Route path="/AFRU" element={<AFRU />} />
-          <Route path="/VS" element={<VS />} />
-          <Route path="/VRS" element={<VRS />} />
-          <Route path="/FAQ" element={<FAQ />} />
-          <Route path="/Merch" element={<Merch />} />
-        </Routes>
               
       </>
   );

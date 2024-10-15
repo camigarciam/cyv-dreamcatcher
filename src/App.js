@@ -42,6 +42,7 @@ import FAQe from './Components/ENG/FAQe';
 import VS from './Components/ESP/VS';
 import VRSe from './Components/ENG/VRSe';
 import VRS from './Components/ESP/VRS';
+import Japan from './Components/ENG/Japan';
 
 
 function App() {
@@ -108,6 +109,7 @@ function App() {
             <Route path="/VSe" element={<VSe />} />
             <Route path="/VRS" element={<VRS />} />
             <Route path="/VRSe" element={<VRSe />} />
+            <Route path="/JAPAN" element={<Japan />} /> 
             <Route path="/Merch" element={<Merch />} />
             <Route path="/Merche" element={<Merche />} />
             <Route path="/FAQ" element={<FAQ />} />
@@ -115,12 +117,12 @@ function App() {
           </Routes>
         <footer className='footer'>
           <p>cr. @suikhan_ y @chaechae.iz</p>
-          <p>Redes Dreamcatcher Argentina:
+          <p> Dreamcatcher Argentina:
             <a className='redes' href='https://www.instagram.com/dreamcatcherargentina/'><FaInstagram /></a>
             <a className="redes" href='https://twitter.com/ArgDreamcatcher'><FaTwitter /></a>
             <a className='redes' href='https://www.facebook.com/DreamcatcherArgentina'><FaFacebookF /></a>
           </p>
-          <p>Ver 4.0.0</p>
+          <p>Ver 4.1.0</p>
         </footer>
     </Router>
     </>

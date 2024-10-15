@@ -52,10 +52,12 @@ const Anuncio = () => {
             <p> Estas son las últimas actualizaciones:	
                 <ul>
                     <li>Nightmare y Fall Asleep in the mirror (reimpresión)</li>
-                    <li>Fallen angels (Agregado, precios TBA)</li>
+                    <li>Fallen angels & Dream of angels (Agregado, precios TBA)</li>
+                    <li>Albumes japoneses (/Japan)</li>
+                    <li>Merch:4th anniversary, Center of time, fly high tour, midnight circus</li>
                 </ul>
-                Última act: 20/10/2024 <br/>
-                Versión 4.0.0 <br/>
+                Última act: 15/10/2024 <br/>
+                Versión 4.1.0 <br/>
                 <img src="https://media1.tenor.com/m/cf3FUiZJhLoAAAAd/gahyeon-dreamcatcher.gif" alt="GIF Gahyun"  style={{ width: '100px', height: '100px' }}  />
             </p>
 

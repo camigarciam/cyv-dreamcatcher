@@ -204,10 +204,72 @@ const Merch = () => {
     {
       title: "FALLEN ANGELS",
       items: [
-        { name: "inclusiones", price1: null, price2: "TBA" }
+        { name: "POBs (each)", price1: null, price2: "12usd" },
+        { name: "set ot7 photocard", price1: null, price2: "15usd" }
       ],
       images: [
-        "https://media.ktown4u.com/products/resize/thumbnail/2024/08/05/xEm92h.jpg"
+        "https://pbs.twimg.com/media/GZfEyV-WMAA0sxh?format=jpg&name=large"
+      ]
+    },
+    {
+      title: "Fly high Tour",
+      items: [
+        { name: "Business Cards", price1: null, price2: "20usd" },
+        { name: "PC set (3cards)", price1: null, price2: "50usd" },
+        {name: "VIP London", price1: null, price2: "25usd"}
+      ],
+      images: [
+      "https://www.popsike.ch/pix/20180630/183298369849.jpg",
+      "https://www.popsike.ch/pix/20180624/132676004752.jpg"
+      ]
+    },
+    {
+      title: "Center of time",
+      items: [
+        { name: "PC", price1: null, price2: "10usd" },
+        { name: "Señalador", price1: null, price2: "30usd" },
+        {name: "Photobook firmado", price1: null, price2: "100usd"},
+        {name: "Photobook", price1: null, price2: "70usd"}
+      ],
+      images: [
+      "https://i.ebayimg.com/images/g/B5QAAOSwvtVl67Pj/s-l400.jpg"
+      ]
+    },
+    {
+      title: "Midnight Circus",
+      items: [
+        { name: "PC", price1: null, price2: "6usd" },
+        { name: "Ticket", price1: null, price2: "4usd" },
+        { name: "Pulsera", price1: null, price2: "3usd" },
+        { name: "Filmstrip", price1: null, price2: "6usd" },
+        { name: "Keyring", price1: null, price2: "4usd" },
+        { name: "Hoodie", price1: null, price2: "35usd" },
+        { name: "Polaroid PCs", price1: null, price2: "9usd" },
+        { name: "Bolsita", price1: null, price2: "4usd" },
+        { name: " Kit de acrílico", price1: null, price2: "11usd" },
+        { name: "VVIP PCs", price1: null, price2: "13usd" }
+        
+      ],
+      images: [
+      "https://preview.redd.it/bqvr5j4qxg481.jpg?width=640&crop=smart&auto=webp&s=1e4b091212a010a263e3792ceb1d78073017cd3e",
+      "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/65YAAOSwrBpiyj4w/$_57.JPG?set_id=8800005007"
+      ]
+    },
+    {
+      title: "4th anniversary",
+      items: [
+        { name: "Gorra", price1: null, price2: "30usd" },
+        {name: "Hoodie", price1: null, price2: "40-45usd"},
+        {name: "Mini Poster", price1: null, price2: "10usd"},
+        {name: "Barbijo y cadena", price1: null, price2: "25usd"},
+        {name: "Pulsera", price1: null, price2: "25-30usd"},
+        {name: "Medias", price1: null, price2: "15usd"},
+        {name: "Photocard Set", price1: null, price2: "10usd"},
+        {name: "Photo Frame", price1: null, price2: "15usd"},
+        {name: "Bolsita", price1: null, price2: "25usd"}
+      ],
+      images: [
+      "https://i.redd.it/lmpsjtzma1b61.jpg"
       ]
     },
   ];

@@ -13,9 +13,9 @@ const Nightmaree =()=>{
       <p>-Photocard =<span className="colordosa">60 usd</span> (base)</p>
       <p>-Poster= ?</p>
       <p className="ver">NORMAL (reprint)</p>
-      <p>-Photobook (cd+pb) = <span className="colordosa">TBA</span> TBA</p>
-      <p>-Photocard =<span className="colordosa">TBA</span> (TBH)</p>
-      <p>-Poster= ?</p>
+      <p>-Photobook (cd+pb) = <span className="colordosa">15usd</span> TBA</p>
+      <p>-Photocard =<span className="colordosa">12usd</span> (TBH)</p>
+      <p>-Keyring= <span className="colordosa">8usd</span></p>
     </div>
           <img src="https://i.ebayimg.com/images/g/XPUAAOSwg1Jlil9U/s-l1200.jpg" alt="Album Cover" style={{ boxShadow: "3.5px 3.5px 0px rgb(98, 109, 113)" }} />
           <img src="https://i.ebayimg.com/images/g/CZoAAOSwzcBkh-Oa/s-l400.jpg" alt="Album Cover" style={{ boxShadow: "3.5px 3.5px 0px rgb(98, 109, 113)" }} />

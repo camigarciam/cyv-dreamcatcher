@@ -18,7 +18,7 @@ const ENG= ()=>{
               The price in <span className="coloruno">BLUE</span> represents the price equivalent to the album divided by its inclusions and rarity
               </p>
             <p>
-              The prince in<span className="colordos"> GREEN </span> is the international price, used until now.
+              The prince in<span className="colordos"> GREEN </span> is the market used until now.
             </p>
             <p>Last update: October 2024</p>
           </div>
