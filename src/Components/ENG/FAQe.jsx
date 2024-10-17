@@ -1,5 +1,5 @@
 import { BsFillCollectionFill } from "react-icons/bs";
-import "./Info.css"
+import "../Info.css"
 import { RiSurveyLine } from "react-icons/ri";
 import Button from "./Button";
 

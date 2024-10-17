@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./Info.css";
+import "../Info.css";
 import Button from "./Button";
 
 const Japan= () => {

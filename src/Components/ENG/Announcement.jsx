@@ -44,6 +44,9 @@ const Announcement = () => {
           bottom: 'auto',
           marginRight: '-50%',
           transform: 'translate(-50%, -50%)',
+          width: '80%',
+          boxShadow: "3.5px 3.5px 5px rgb(130,130,130)",
+          border: "2px solid rgb(180, 180, 180)",
         },
       }}
     >
@@ -52,12 +55,13 @@ const Announcement = () => {
             <p> These are the newest updates:
                 <ul>
                     <li>Nightmare y Fall Asleep in the mirror (reprint)</li>
-                    <li>Merch:Fallen angels & Dream of angels (New In! prices TBA)</li>
+                    <li>Merch:Fallen angels & Dream of angels (New In! prices in progress)</li>
                     <li>Japanese albums (/Japan)</li>
                     <li>Merch:4th anniversary, Center of time, fly high tour, midnight circus</li>
+                    <li> Web Desing</li>
                 </ul>
-                Last update: Oct 15th 2024 <br/>
-                Version 4.1.0 <br/>
+                Last update: Oct 17th 2024 <br/>
+                Version 4.2.1 <br/>
                 <img src="https://media1.tenor.com/m/cf3FUiZJhLoAAAAd/gahyeon-dreamcatcher.gif" alt="GIF Gahyun"  style={{ width: '100px', height: '100px' }}  />
             </p>
             <div>

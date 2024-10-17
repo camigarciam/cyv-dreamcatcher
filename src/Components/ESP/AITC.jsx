@@ -1,5 +1,5 @@
 import Boton from "./Boton";
-import "./Info.css"
+import "../Info.css"
 
 const AITC = ()=>{
     return(

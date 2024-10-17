@@ -122,7 +122,7 @@ function App() {
             <a className="redes" href='https://twitter.com/ArgDreamcatcher'><FaTwitter /></a>
             <a className='redes' href='https://www.facebook.com/DreamcatcherArgentina'><FaFacebookF /></a>
           </p>
-          <p>Ver 4.1.0</p>
+          <p>Ver 4.2.1</p>
         </footer>
     </Router>
     </>

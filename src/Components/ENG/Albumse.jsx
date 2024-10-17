@@ -3,25 +3,7 @@ import React from 'react';
 
 import { BrowserRouter as Router, Link, Route, Routes, useLocation } from 'react-router-dom';
 import"./../../App.css"
-import Nightmaree from "./Nightmaree";
-import FAITMe from "./FAITMe";
-import Prequele from "./Prequele";
-import ETEe from "./ETEe";
-import AITCe from "./AITCe";
-import TEONe from "./TEONe";
-import RODe from "./RODe";
-import TTOLe from "./TTOLe";
-import LMe from "./LMe";
-import RTUe from "./RTUe";
-import SHe from "./SHe";
-import ASUe from "./ASUe";
-import AFUe from "./AFUe";
-import AFRUe from "./AFRUe";
-import VSe from "./VSe";
-import VRSe from "./VRSe";
-import FAQe from "./FAQe";
-import Merche from "./Merche";
-import Japan from "./Japan";
+import "./../../MerchCover.png"
 
 function Albumse() {
   const albumContainerRef = React.useRef(null); // Definir la referencia para el contenedor del álbum
@@ -243,7 +225,7 @@ function Albumse() {
             <div className="image-container">
               <img
                 className="portada"
-                src="https://i.pinimg.com/736x/a1/fa/4b/a1fa4b536ccf520a1fdd2f81e5ad5e7c.jpg"
+                src={require('./../../MerchCover.png')}
                 alt="Merch"
                 title="Merch"
                 style={{ boxShadow: "3.5px 3.5px 0px rgb(133, 171, 240)" }}

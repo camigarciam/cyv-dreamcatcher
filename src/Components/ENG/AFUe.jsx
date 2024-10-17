@@ -1,6 +1,5 @@
 import Button from "./Button";
-import "./Info.css"
-
+import "../Info.css"
 const AFUe = ()=>{
     return(
         <div className="infoalbum">

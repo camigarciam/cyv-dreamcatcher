@@ -1,27 +1,8 @@
-import "./Info.css"
+import "../Info.css"
 import React from 'react';
 import RTU from './RTU';
 import { BrowserRouter as Router, Link, Route, Routes, useLocation } from 'react-router-dom';
 import"./../../App.css"
-import LM from './LM';
-import Nightmare from './Nightmare';
-import FAITM from './FAITM';
-import Prequel from './Prequel';
-import ETE from './ETE';
-import AITC from './AITC';
-import TEON from './TEON';
-import ROD from './ROD';
-import TTOL from './TTOL';
-import SH from './SH';
-import ASU from './ASU';
-import AFU from './AFU';
-import AFRU from './AFRU';
-import Merch from './Merch';
-import VS from './VS';
-import VRS from './VRS';
-import DolarBlue from './dolar';
-
-import FAQ from './FAQ';
 
 function Albums() {
   const albumContainerRef = React.useRef(null); // Definir la referencia para el contenedor del álbum
@@ -243,7 +224,7 @@ function Albums() {
             <div className="image-container">
               <img
                 className="portada"
-                src="https://i.pinimg.com/736x/a1/fa/4b/a1fa4b536ccf520a1fdd2f81e5ad5e7c.jpg"
+                src={require('./../../MerchCover.png')}
                 alt="Merch"
                 title="Merch"
                 style={{ boxShadow: "3.5px 3.5px 0px rgb(133, 171, 240)" }}

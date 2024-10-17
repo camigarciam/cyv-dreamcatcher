@@ -1,5 +1,5 @@
 import FirstTimeAnnouncement from "./anuncio"
-import "./Info.css";
+import "../Info.css";
 import DolarBlue from "./dolar";
 import Albums from "./Albums";
 import"./../../App.css"

@@ -1,4 +1,4 @@
-import "./Info.css"
+import "../Info.css"
 
 import Albumse from "./Albumse";
 import Announcement from "./Announcement";

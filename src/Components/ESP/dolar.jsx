@@ -1,6 +1,6 @@
 
 import React, { useEffect, useState } from 'react';
-import "./Info.css"
+import "../Info.css"
 
 function DolarBlue() {
   const [dolarBlue, setDolarBlue] = useState({

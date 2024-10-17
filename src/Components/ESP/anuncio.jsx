@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { BiBorderAll } from 'react-icons/bi';
 import Modal from 'react-modal';
 
 Modal.setAppElement('#root'); // Necesario para accesibilidad
@@ -44,6 +45,9 @@ const Anuncio = () => {
           bottom: 'auto',
           marginRight: '-50%',
           transform: 'translate(-50%, -50%)',
+          width: '80%',
+          boxShadow: "3.5px 3.5px 5px rgb(130,130,130)",
+          border: "2px solid rgb(180, 180, 180)",
         },
       }}
     >
@@ -52,12 +56,13 @@ const Anuncio = () => {
             <p> Estas son las últimas actualizaciones:	
                 <ul>
                     <li>Nightmare y Fall Asleep in the mirror (reimpresión)</li>
-                    <li>Fallen angels & Dream of angels (Agregado, precios TBA)</li>
+                    <li>Fallen angels & Dream of angels (Agregado, precios en progreso)</li>
                     <li>Albumes japoneses (/Japan)</li>
                     <li>Merch:4th anniversary, Center of time, fly high tour, midnight circus</li>
+                    <li>Diseño de la Web</li>
                 </ul>
-                Última act: 15/10/2024 <br/>
-                Versión 4.1.0 <br/>
+                Última act: 17/10/2024 <br/>
+                Versión 4.2.1 <br/>
                 <img src="https://media1.tenor.com/m/cf3FUiZJhLoAAAAd/gahyeon-dreamcatcher.gif" alt="GIF Gahyun"  style={{ width: '100px', height: '100px' }}  />
             </p>
 

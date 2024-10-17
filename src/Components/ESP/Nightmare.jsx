@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import "./Info.css"
+import "../Info.css"
 import Boton from "./Boton"
 
 const Nightmare =()=>{

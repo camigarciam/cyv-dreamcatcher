@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./Info.css";
+import "../Info.css";
 import Button from "./Button";
 
 const Merche = () => {
@@ -204,7 +204,7 @@ const Merche = () => {
     {
       title: "FALLEN ANGELS",
       items: [
-        { name: "POBs (each)", price1: null, price2: "12usd" },
+        { name: "POBs (each)", price1: null, price2: "25usd" },
         { name: "set ot7 photocard", price1: null, price2: "15usd" }
       ],
       images: [

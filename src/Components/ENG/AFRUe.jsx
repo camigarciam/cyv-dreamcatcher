@@ -1,5 +1,5 @@
 import Button from "./Button";
-import "./Info.css"
+import "../Info.css"
 
 const AFRUe = ()=>{
     return(
