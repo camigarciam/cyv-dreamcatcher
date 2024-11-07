@@ -43,6 +43,8 @@ import VS from './Components/ESP/VS';
 import VRSe from './Components/ENG/VRSe';
 import VRS from './Components/ESP/VRS';
 import Japan from './Components/ENG/Japan';
+import Somnia from './Components/ENG/Somnia';
+
 
 
 function App() {
@@ -114,6 +116,7 @@ function App() {
             <Route path="/Merche" element={<Merche />} />
             <Route path="/FAQ" element={<FAQ />} />
             <Route path="/FAQe" element={<FAQe />} />
+            <Route path="/SOMNIA" element={<Somnia />} />
           </Routes>
         <footer className='footer'>
           <p>cr. @suikhan_ y @chaechae.iz</p>

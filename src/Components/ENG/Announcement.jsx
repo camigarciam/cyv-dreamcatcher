@@ -54,15 +54,15 @@ const Announcement = () => {
       <p>Welcome to the price guide</p>
             <p> These are the newest updates:
                 <ul>
-                    <li>Nightmare y Fall Asleep in the mirror (reprint)</li>
-                    <li>Merch:Fallen angels & Dream of angels (New In! prices in progress)</li>
-                    <li>Japanese albums (/Japan)</li>
-                    <li>Merch:4th anniversary, Center of time, fly high tour, midnight circus</li>
+                  <li><p><h3>SOMNIAS BOARD</h3>
+                  A new space where you will be able to get to know other collectors!~ </p></li>
+                    <li>Nightmare y Fall Asleep in the mirror (Prices still in discusion)</li>
+                    <li>Dream of angels (Prices in progress)</li>
                     <li> Web Desing</li>
                 </ul>
-                Last update: Oct 17th 2024 <br/>
-                Version 4.2.1 <br/>
-                <img src="https://media1.tenor.com/m/cf3FUiZJhLoAAAAd/gahyeon-dreamcatcher.gif" alt="GIF Gahyun"  style={{ width: '100px', height: '100px' }}  />
+                Last update: Nov 7th 2024 <br/>
+                Version 5.1.1 <br/>
+                <img src="https://media1.tenor.com/m/7PiLZ2NZ9lYAAAAd/yooh-thumbs-up-yoohyeon.gif" alt="GIF Yooh"  style={{ width: '100px', height: '100px' }}  />
             </p>
             <div>
         <label>

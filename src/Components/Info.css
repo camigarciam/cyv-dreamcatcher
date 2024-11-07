@@ -99,6 +99,11 @@
   .infoal img{
     max-width: 300px;
   }
+  .Collectors{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+  }
 }
 
 .infoalimgmerch{
@@ -186,4 +191,93 @@
   border-radius: 5%;
   border: 2px solid black;
   padding: 10px;
+}
+
+/* Estilo para el contenedor principal */
+.infoUser {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  padding-left: 20px;
+  max-width: 80%;
+}
+
+/* Estilo para el formulario */
+.UserForm {
+  display: flex;
+  flex-direction: column;
+  background-color: aliceblue;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 3.5px 3.5px 0px rgba(133, 171, 240);
+  border: 2px solid black;
+  width: 500px;
+  max-width: 80%;
+}
+
+/* Estilo para los inputs y textarea en el formulario */
+.UserForm input, .UserForm textarea {
+  margin-bottom: 10px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Estilo para la lista de usuarios, ahora en tarjetas */
+.UserList {
+  max-width: 80%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Collectors {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  align-self: center;
+}
+
+.UserCard {
+  background-color: #f4f4f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+  display: flex;
+  flex-direction: column; /* Asegura que los elementos dentro de la tarjeta estén en una columna */
+  max-width: 50%;
+  width: 300px;
+}
+
+/* Estilo para los elementos dentro de las tarjetas */
+.UserCard h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.UserCard p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.UserCard strong {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.UserCard .username {
+  margin-bottom: 10px;
+}
+
+.UserCard .details {
+  display: flex;
+  flex-direction: column;
+}
+
+.UserCard .details p {
+  margin: 5px 0;
+  font-size: 14px;
 }

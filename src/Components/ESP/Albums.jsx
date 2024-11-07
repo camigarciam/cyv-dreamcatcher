@@ -1,6 +1,5 @@
 import "../Info.css"
 import React from 'react';
-import RTU from './RTU';
 import { BrowserRouter as Router, Link, Route, Routes, useLocation } from 'react-router-dom';
 import"./../../App.css"
 
@@ -232,6 +231,18 @@ function Albums() {
               <div className="overlay">Merch</div>
             </div>
           </Link>
+          <Link to="/SOMNIA"onClick={handleAlbumClick}>
+            <div className="image-container">
+              <img
+                className="portada"
+                src="https://i.pinimg.com/474x/61/87/5f/61875f508dc439ec077e7a5b1490c22c.jpg"
+                alt="SOMNIA"
+                title="SOMNIA"
+                style={{ boxShadow: "3.5px 3.5px 0px rgb(133, 171, 240)" }}
+              />
+              <div className="overlay">Somnia's board (ENG)</div>
+            </div>
+          </Link>
           <Link to="/FAQ"onClick={handleAlbumClick}>
             <div className="image-container">
               <img
@@ -244,6 +255,7 @@ function Albums() {
               <div className="overlay">FAQ</div>
             </div>
           </Link>
+  
         </div>
               
       </>

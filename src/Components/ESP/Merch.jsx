@@ -272,6 +272,30 @@ const Merch = () => {
       "https://i.redd.it/lmpsjtzma1b61.jpg"
       ]
     },
+    {
+      title: "Season Greetings 2025",
+      items: [
+        { name: "POB", price1: null, price2: "20usd" },
+        {name: "ORANGE SET", price1: null, price2: null},
+        {name: "FOLDED POSTER", price1: null, price2: "2usd"},
+        {name: "PHOTOBOOK", price1: null, price2: "8usd"},
+        {name: "PHOTOCARD", price1: null, price2: "3usd"},
+        {name: "PHOTOCARD HOLDER", price1: null, price2: "5usd"},
+        {name: "MASKING TAPE", price1: null, price2: "2usd"},
+        {name: "MEMO PAD", price1: null, price2: "3usd"},
+        {name: "JIBBITZ", price1: null, price2: "4usd"},
+        {name:"GREEN SET", price1: null, price2: null},
+        {name: "Photocard", price1: null, price2: "3usd"},
+        {name: "FABRIC POSTER", price1: null, price2: "4usd"},
+        {name: "MEMO PAD SET", price1: null, price2: "3usd"},
+        {name: "MAGNETS set", price1: null, price2: "6usd"},
+        {name: "STICKER SHEET", price1: null, price2: "2usd"},
+        {name: "PLANNER", price1: null, price2: "9usd"}
+      ],
+      images: [
+      "https://preview.redd.it/dreamcatcher-2025-seasons-greetings-dreamy-farm-a-dreamy-v0-7ig22z3m7owd1.jpg?width=1080&crop=smart&auto=webp&s=539d9bea1806d0eee9892c85ff2eaa4d7ead65c0"
+      ]
+    },
   ];
   
   // Ordenar el array por título de forma alfabética

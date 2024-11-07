@@ -54,16 +54,16 @@ const Anuncio = () => {
       <h2>Somnia!</h2>
       <p>Bienvenidx a la lista de precios</p>
             <p> Estas son las últimas actualizaciones:	
-                <ul>
-                    <li>Nightmare y Fall Asleep in the mirror (reimpresión)</li>
-                    <li>Fallen angels & Dream of angels (Agregado, precios en progreso)</li>
-                    <li>Albumes japoneses (/Japan)</li>
-                    <li>Merch:4th anniversary, Center of time, fly high tour, midnight circus</li>
-                    <li>Diseño de la Web</li>
+            <ul>
+                  <li><p><h3>SOMNIAS BOARD</h3>
+                    Un nuevo espacio donde podrás conocer a otros/as coleccionistas!~ (está en inglés) </p></li>
+                    <li>Nightmare y Fall Asleep in the mirror (Precios aproximados)</li>
+                    <li>Dream of angels (Precios en progreso)</li>
+                    <li> Web Desing</li>
                 </ul>
-                Última act: 17/10/2024 <br/>
-                Versión 4.2.1 <br/>
-                <img src="https://media1.tenor.com/m/cf3FUiZJhLoAAAAd/gahyeon-dreamcatcher.gif" alt="GIF Gahyun"  style={{ width: '100px', height: '100px' }}  />
+                Ultima act: 7 de Noviembre 2024 <br/>
+                Version 5.1.1 <br/>
+                <img src="https://media1.tenor.com/m/7PiLZ2NZ9lYAAAAd/yooh-thumbs-up-yoohyeon.gif" alt="GIF GYooh"  style={{ width: '100px', height: '100px' }}  />
             </p>
 
       <div>

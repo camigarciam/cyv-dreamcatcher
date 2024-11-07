@@ -233,6 +233,18 @@ function Albumse() {
               <div className="overlay">Merch</div>
             </div>
           </Link>
+          <Link to="/SOMNIA"onClick={handleAlbumClick}>
+            <div className="image-container">
+              <img
+                className="portada"
+                src="https://i.pinimg.com/474x/61/87/5f/61875f508dc439ec077e7a5b1490c22c.jpg"
+                alt="SOMNIA"
+                title="SOMNIA"
+                style={{ boxShadow: "3.5px 3.5px 0px rgb(133, 171, 240)" }}
+              />
+              <div className="overlay">Somnia's board</div>
+            </div>
+          </Link>
           <Link to="/FAQe"onClick={handleAlbumClick}>
             <div className="image-container">
               <img
