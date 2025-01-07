@@ -1,17 +1,14 @@
 body{
   font-family: 'Poppins', sans-serif;
-  background-color: rgb(230, 230, 230); /* Color de fondo base */
-  background-image: 
-    linear-gradient(0deg, rgba(0, 0, 0, 0.1) 1px, transparent 1px), /* Líneas horizontales */
-    linear-gradient(90deg, rgba(0, 0, 0, 0.1) 1px, transparent 1px); /* Líneas verticales */
+  background-color: rgb(255, 237, 237); /* Color de fondo base *
   background-size: 30px 30px; /* Tamaño de cada celda de la cuadrícula */
 }
 
 .image {
-  max-width: 50%;
+  max-width: 35%;
   display: block;
   margin-top: 2%;
-  box-shadow: 5px 5px 0px rgba(133, 171, 240);
+  box-shadow: 5px 5px 0px rgb(230, 81, 81);
   border-radius: 2%;
   border: 2px solid black;
 }
@@ -30,10 +27,9 @@ body{
 }
 
 .textouno {
-  background-color: rgb(133, 171, 240);
+  background-color:rgb(230, 81, 81);
   font-size: 20px;
   padding: 10px;
-  box-shadow: 5px 5px 0px rgb(114, 121, 133);
   border-radius: 2%;
   border: 2px solid black;
 }
@@ -42,7 +38,7 @@ body{
   background-color: white;
   font-size: 15px;
   padding: 10px;
-  box-shadow: 5px 5px 0px rgba(133, 171, 240);
+  box-shadow: 5px 5px 0px rgb(230, 81, 81);
   border-radius: 2%;
   border: 2px solid black;
   margin-bottom: 20px;
@@ -79,6 +75,7 @@ body{
 
 .portadas {
   display: grid;
+  flex-wrap: wrap;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Se asegura de que las portadas ocupen todo el ancho disponible */
   gap: 10px;
   justify-items: center; /* Centra las imágenes horizontalmente */
@@ -151,7 +148,7 @@ h4 {
 
 
 button{
-  background-color: rgb(133, 171, 240);
+  background-color: rgb(230, 81, 81);
   color: rgb(255, 255, 255);
   font-weight: 500;
   border: none;

@@ -56,13 +56,14 @@ const Announcement = () => {
                 <ul>
                   <li><p><h3>SOMNIAS BOARD</h3>
                   A new space where you will be able to get to know other collectors!~ </p></li>
-                    <li>Nightmare y Fall Asleep in the mirror (Prices still in discusion)</li>
-                    <li>Dream of angels (Prices in progress)</li>
+                    <li>Christmas Sweet Love </li>
+                    <li> Fallen Angel s& Dream of Angels</li>
+                    <li>Trading cards ver.3</li>
                     <li> Web Desing</li>
                 </ul>
-                Last update: Nov 7th 2024 <br/>
-                Version 5.1.1 <br/>
-                <img src="https://media1.tenor.com/m/7PiLZ2NZ9lYAAAAd/yooh-thumbs-up-yoohyeon.gif" alt="GIF Yooh"  style={{ width: '100px', height: '100px' }}  />
+                Last update: Jan 7th 2025 <br/>
+                Version 6.0.0 <br/>
+                <img src="https://media1.tenor.com/m/F9pBstPqGdQAAAAd/jiu-dreamcatcher.gif" alt="GIF Jiu"  style={{ width: '120px', height: '100px' }}  />
             </p>
             <div>
         <label>

@@ -1,283 +1,298 @@
 .title{
-    justify-content: center; /* Center items horizontally */
-  align-items: center; /* Center items vertically */
-  text-align: center;
+  justify-content: center; /* Center items horizontally */
+align-items: center; /* Center items vertically */
+text-align: center;
 }
 
 .infoalbum div{
-    display: flex;
-    margin: 0 5%;
-    margin-bottom: 5%;
+  display: flex;
+  margin: 0 5%;
+  margin-bottom: 5%;
 }
 .infoal {
-    display: flex;
-    margin-bottom: 30px;
-  }
-  
-  .infoal {
-    display: flex;
-  justify-content: center; /* Center items horizontally */
- /* Center items vertically */
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.infoal {
+  display: flex;
+justify-content: center; /* Center items horizontally */
+/* Center items vertically */
+
+}
+
+.infotext {
+  display: flex;
+  flex-direction: column; /* Stack the paragraphs vertically */
+  background-color: white; /* Add your desired background color */
+  padding: 10px; /* Add padding for some space around the paragraphs */
+  border-radius: 2px;
+  align-items: top;
+  box-shadow: 3.5px 3.5px 0px rgb(230, 81, 81);
+  border-radius: 3%;
+  border: 2px solid black;
+  max-height: fit-content;
+
+}
+
+.infotext p {
+  margin: 0;
+  padding-bottom: 0px; /* Adjust the spacing between paragraphs as needed */
+  background-color: white; /* Set the text color to black or your preferred color */
+}
+
+.infoalimg {
+  max-width: 200px;
+  height: auto;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: grid;
+  justify-content: center;
+  align-self: center;
+  max-width: fit-content;
+}
+.infoal img{
+  max-width: 300px;
+  max-height: auto;
+  height: auto;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  box-shadow: 3.5px 3.5px 0px rgb(230, 81, 81);
+  border-radius: 3%;
+  border: 2px solid black;
  
 }
-  
-  .infotext {
-    display: flex;
-    flex-direction: column; /* Stack the paragraphs vertically */
-    background-color: aliceblue; /* Add your desired background color */
-    padding: 10px; /* Add padding for some space around the paragraphs */
-    border-radius: 2px;
-    align-items: top;
-    box-shadow: 3.5px 3.5px 0px rgba(133, 171, 240);
-    border-radius: 3%;
-    border: 2px solid black;
-    max-height: fit-content;
-  
-  }
-  
-  .infotext p {
-    margin: 0;
-    padding-bottom: 0px; /* Adjust the spacing between paragraphs as needed */
-    background-color: aliceblue; /* Set the text color to black or your preferred color */
-  }
-  
-  .infoalimg {
-    max-width: 200px;
-    height: auto;
-    margin-left: 10px;
-    display: flex;
-    flex-direction: grid;
-    justify-content: center;
-    align-self: center;
-    max-width: fit-content;
-  }
-  .infoal img{
-    max-width: 300px;
-    max-height: auto;
-    height: auto;
-    margin-left: 10px;
-    margin-bottom: 20px;
-    box-shadow: 3.5px 3.5px 0px rgb(37, 123, 215);
-    border-radius: 3%;
-    border: 2px solid black;
-   
-  }
 
-  @media (max-width: 1300px) {
-    .infoalimg{
-      flex-direction: column;
-    }
-  }
-
-  
-  .colorunoa{
-    background-color: aliceblue;
-    color:rgb(41, 60, 233);
-    display: inline;
-  }
-
-  .ver{
-    background-color: rgb(156, 163, 169);
-    padding: 10px;
-    font-weight: 1000;
-    justify-self: center;
-    text-align: center;
-  }
-
-  .colordosa{
-    background-color: aliceblue;
-    color:rgb(0, 188, 0);
-  }
-
-  @media (max-width: 600px) {
-    .infoal{
-      flex-direction: column;
-    }
-  .infotext{
-    margin: 10px;
-  }
-  .infoal img{
-    max-width: 300px;
-  }
-  .Collectors{
-    display: flex;
+@media (max-width: 1300px) {
+  .infoalimg{
     flex-direction: column;
-    width: 250px;
   }
+}
+
+
+.colorunoa{
+  background-color: white;
+  color:rgb(41, 60, 233);
+  display: inline;
+}
+
+.ver{
+  background-color: rgb(156, 163, 169);
+  padding: 10px;
+  font-weight: 1000;
+  justify-self: center;
+  text-align: center;
+}
+
+.colordosa{
+  background-color: white;
+  color:rgb(0, 188, 0);
+}
+
+@media (max-width: 600px) {
+  .infoal{
+    flex-direction: column;
+  }
+.infotext{
+  margin: 10px;
+}
+.infoal img{
+  max-width: 300px;
+}
+.Collectors{
+  display: flex;
+  flex-direction: column;
+}
+
+.User{
+  max-width: 280px;
+  display: flex;
+  flex-direction: column;
+}
+
 }
 
 .infoalimgmerch{
-  max-width: 150px;
-  max-height: 150px;
-  height: auto;
-  flex-direction: column;
-  margin-bottom: 30px;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-  gap: 5px;
-  justify-self: center; /* Center items horizontally */
+max-width: 150px;
+max-height: 150px;
+height: auto;
+flex-direction: column;
+margin-bottom: 30px;
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+gap: 5px;
+justify-self: center; /* Center items horizontally */
 }
 
 .infoalimgmerch p{
-  margin-top: 0;
+margin-top: 0;
 }
 
 .dolar-blue{
-  text-align: center;
-  display: inline-block;
-  background-color: white;
-  padding: 10px;
+text-align: center;
+display: inline-block;
+background-color: white;
+padding: 10px;
 }
 
 .pregunta{
-  display: flex;
-  flex-direction: column;
-  background-color: aliceblue;
-  margin-bottom: 0;
+display: flex;
+flex-direction: column;
+background-color: aliceblue;
+margin-bottom: 0;
 }
 
 .preg{
-  background-color: aliceblue;
-  margin-bottom: 0
+background-color: aliceblue;
+margin-bottom: 0
 }
 
 
 
 .infotextal {
-  display: flex;
-  flex-direction: column; /* Stack the paragraphs vertically */
-  background-color: aliceblue; /* Add your desired background color */
-  padding: 5px; /* Reduce padding for tighter spacing */
-  border-radius: 5px;
-  align-items: flex-start; /* Align text to the left (optional) */
-  box-shadow: 3.5px 3.5px 0px rgba(133, 171, 240);
-  border-radius: 3%;
-  border: 2px solid black;
-  width: fit-content; /* Adjust width to fit content */
-  height: fit-content; /* Adjust height to fit content */
-  margin-bottom: 10px;
-  justify-content:center;
-  max-width: 500px;
+display: flex;
+flex-direction: column; /* Stack the paragraphs vertically */
+background-color: white; /* Add your desired background color */
+padding: 5px; /* Reduce padding for tighter spacing */
+border-radius: 5px;
+align-items: flex-start; /* Align text to the left (optional) */
+box-shadow: 3.5px 3.5px 0pxrgb(230, 81, 81);
+border-radius: 3%;
+border: 2px solid black;
+width: fit-content; /* Adjust width to fit content */
+height: fit-content; /* Adjust height to fit content */
+margin-bottom: 10px;
+justify-content:center;
+max-width: 500px;
 }
 
 .infotextal img {
-  max-width: 200px;
-  width: 100%; /* Ensure the image does not exceed the container */
-  padding:10px;
-  align-self: center;
-  justify-self: center;
+max-width: 200px;
+width: 100%; /* Ensure the image does not exceed the container */
+padding:10px;
+align-self: center;
+justify-self: center;
 }
 
 .images-container{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 0 5%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin: 0 5%;
 }
 
 .infomerch {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  padding:10px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+padding:10px;
 }
 
 .buscar{
-  display: flex;
-  margin: 0 5%;
-  margin-bottom: 1.5%;
-  font-size: 15px;
-  box-shadow: 3.5px 3.5px 0px rgba(133, 171, 240);
-  border-radius: 5%;
-  border: 2px solid black;
-  padding: 10px;
+display: flex;
+margin: 0 5%;
+margin-bottom: 1.5%;
+font-size: 15px;
+box-shadow: 3.5px 3.5px 0px rgb(230, 81, 81);
+border-radius: 5%;
+border: 2px solid black;
+padding: 10px;
 }
 
 /* Estilo para el contenedor principal */
 .infoUser {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 10px;
-  padding-left: 20px;
-  max-width: 80%;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 10px;
+padding-left: 20px;
+max-width: 80%;
 }
 
 /* Estilo para el formulario */
 .UserForm {
-  display: flex;
-  flex-direction: column;
-  background-color: aliceblue;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 3.5px 3.5px 0px rgba(133, 171, 240);
-  border: 2px solid black;
-  width: 500px;
-  max-width: 80%;
+display: flex;
+flex-direction: column;
+background-color: rgb(255, 255, 255);
+padding: 20px;
+border-radius: 10px;
+box-shadow: 3.5px 3.5px 0px rgb(230, 81, 81);
+border: 2px solid black;
+width: 500px;
+max-width: 80%;
 }
 
 /* Estilo para los inputs y textarea en el formulario */
 .UserForm input, .UserForm textarea {
-  margin-bottom: 10px;
-  padding: 8px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
+margin-bottom: 10px;
+padding: 8px;
+border-radius: 5px;
+border: 1px solid #ccc;
 }
 
-/* Estilo para la lista de usuarios, ahora en tarjetas */
+/* Estilo para la lista de usuarios */
 .UserList {
-  max-width: 80%;
+  max-width: 200px; /* Define un máximo ancho para el contenedor de usuarios */
+  max-height: 100px;
   margin-top: 20px;
   display: flex;
   flex-direction: column;
+  align-items: center; /* Centra el contenido dentro de UserList */
 }
 
+/* Contenedor para organizar las tarjetas en cuadrícula */
 .Collectors {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 20px;
-  align-self: center;
-}
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+  }
 
-.UserCard {
+
+.User{
   background-color: #f4f4f9;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-  border: 1px solid #ddd;
-  display: flex;
-  flex-direction: column; /* Asegura que los elementos dentro de la tarjeta estén en una columna */
-  max-width: 50%;
-  width: 300px;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+border: 1px solid #ddd;
+display: flex;
+width: 500px
+
+}
+.UserCard {
+
+display: flex;
+flex-direction: column; /* Asegura que los elementos dentro de la tarjeta estén en una columna */
+min-width: 200px;
+width: 300px;
 }
 
 /* Estilo para los elementos dentro de las tarjetas */
 .UserCard h3 {
-  margin-bottom: 10px;
-  font-size: 18px;
-  font-weight: bold;
+margin-bottom: 10px;
+font-size: 18px;
+font-weight: bold;
 }
 
 .UserCard p {
-  margin: 5px 0;
-  font-size: 14px;
+margin: 5px 0;
+font-size: 14px;
 }
 
 .UserCard strong {
-  font-weight: bold;
-  margin-right: 5px;
+font-weight: bold;
+margin-right: 5px;
 }
 
 .UserCard .username {
-  margin-bottom: 10px;
+margin-bottom: 10px;
 }
 
 .UserCard .details {
-  display: flex;
-  flex-direction: column;
+display: flex;
+flex-direction: column;
 }
 
 .UserCard .details p {
-  margin: 5px 0;
-  font-size: 14px;
+margin: 5px 0;
+font-size: 14px;
 }

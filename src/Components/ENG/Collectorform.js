@@ -8,6 +8,7 @@ function UserForm() {
   const [comment, setComment] = useState('');
   const [country, setCountry] = useState('');
   const [users, setUsers] = useState([]);
+  const [imageURL, setImageURL] = useState(''); // Estado para la URL de la imagen
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -16,12 +17,14 @@ function UserForm() {
         username,
         favoriteMember,
         comment,
-        country
+        country,
+        imageURL
       });
       setUsername('');
       setFavoriteMember('');
       setComment('');
       setCountry('');
+      setImageURL('');
       fetchUsers(); // Actualiza la lista después de agregar un nuevo usuario
     } catch (e) {
       console.error("Error al agregar el documento: ", e);
@@ -84,20 +87,34 @@ function UserForm() {
             />
           </label>
           <br/>
+          <label>
+            Add an image! (only URL):
+            <br />
+            <input
+              type="text"
+              value={imageURL}
+              onChange={(e) => setImageURL(e.target.value)} // Actualiza el estado con la URL de la imagen
+            />
+          </label>
+          <br />
+          {imageURL && <img src={imageURL} alt="User image" style={{ width: '100px', height: '100px', objectFit: 'cover', marginTop: '10px' }} />}
+          <br />
           <button type="submit">Post</button>
         </form>
       </div>
-
+      <h2>Collector's board</h2>
       <div className="UserList">
-        <h2>Collector's board</h2>
         <div className="Collectors">
           {users.map((user, index) => (
+          <div className='User'>
             <div key={index} className="UserCard">
               <h3>{user.username}</h3>
               <p><strong>Collects:</strong> {user.favoriteMember}</p>
               <p><strong>Country:</strong> {user.country}</p>
               <p>"{user.comment}"</p>
             </div>
+            {user.imageURL && <img src={user.imageURL} alt="User" style={{ width: '150px', height: '150px', objectFit: 'cover' }} />}
+          </div>
           ))}
         </div>
       </div>
@@ -106,4 +123,3 @@ function UserForm() {
 }
 
 export default UserForm;
-

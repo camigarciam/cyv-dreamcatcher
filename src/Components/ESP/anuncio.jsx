@@ -57,13 +57,14 @@ const Anuncio = () => {
             <ul>
                   <li><p><h3>SOMNIAS BOARD</h3>
                     Un nuevo espacio donde podrás conocer a otros/as coleccionistas!~ (está en inglés) </p></li>
-                    <li>Nightmare y Fall Asleep in the mirror (Precios aproximados)</li>
-                    <li>Dream of angels (Precios en progreso)</li>
+                    <li>Christmas Swee Love </li>
+                    <li>Dream of Angel & Fallen Angels</li>
+                    <li> Tour pcs ver 3</li>
                     <li> Web Desing</li>
                 </ul>
-                Ultima act: 7 de Noviembre 2024 <br/>
-                Version 5.1.1 <br/>
-                <img src="https://media1.tenor.com/m/7PiLZ2NZ9lYAAAAd/yooh-thumbs-up-yoohyeon.gif" alt="GIF GYooh"  style={{ width: '100px', height: '100px' }}  />
+                Ultima act: 7 de Enero 2025 <br/>
+                Version 6.0.0 <br/>
+                <img src="https://media1.tenor.com/m/F9pBstPqGdQAAAAd/jiu-dreamcatcher.gif" alt="GIF Jiu"  style={{ width: '120px', height: '100px' }}  />
             </p>
 
       <div>

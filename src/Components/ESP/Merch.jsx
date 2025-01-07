@@ -109,7 +109,7 @@ const Merch = () => {
       items: [
         { name: "Lucky cards", price1: "3usd", price2: "3.5usd" },
         { name: "7 doors tours set (pc + tarot card+postal)", price1: "8usd", price2: null },
-        { name: "Trading cards", price1: "5usd", price2: "4.5usd" },
+        { name: "Trading cards", price1: "5usd", price2: "3usd" },
         { name: "Hoodie cards", price1: "15usd", price2: null},
       ],
       images: [
@@ -193,22 +193,16 @@ const Merch = () => {
       ]
     },
     {
-      title: "DREAM OF ANGELS",
+      title: "DREAM OF ANGELS & Fallen Angels",
       items: [
-        { name: "inclusiones", price1: null, price2: "TBA" }
-      ],
-      images: [
-        "https://pbs.twimg.com/media/GUHOh-0XQAApu3L?format=jpg&name=large"
-      ]
-    },
-    {
-      title: "FALLEN ANGELS",
-      items: [
+        { name: "member set", price1: null, price2: "10usd" },
         { name: "POBs (each)", price1: null, price2: "25usd" },
-        { name: "set ot7 photocard", price1: null, price2: "15usd" }
+        { name: "set ot7 photocard fallen angels", price1: null, price2: "15usd" }
+        
+
       ],
       images: [
-        "https://pbs.twimg.com/media/GZfEyV-WMAA0sxh?format=jpg&name=large"
+        "https://pbs.twimg.com/media/GaIAFyXXsAA-f-4?format=jpg&name=large"
       ]
     },
     {

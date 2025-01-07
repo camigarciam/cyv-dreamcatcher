@@ -207,6 +207,18 @@ function Albums() {
               <div className="overlay">Versus: Virtuous</div>
             </div>
           </Link>
+          <Link to="/CSL" onClick={handleAlbumClick}>
+            <div className="image-container">
+              <img
+                className="portada"
+                src="https://images.genius.com/4ca8a464e0e5cff95bedf5c818e8eb2d.1000x1000x1.jpg"
+                alt="CSL"
+                title="CSL"
+                style={{ boxShadow: "3.5px 3.5px 0px rgb(172, 71, 116)" }}
+              />
+              <div className="overlay">Christmas Sweet Love</div>
+            </div>
+          </Link>
           <Link to="/JAPAN"onClick={handleAlbumClick}>
             <div className="image-container">
               <img
@@ -226,7 +238,7 @@ function Albums() {
                 src={require('./../../MerchCover.png')}
                 alt="Merch"
                 title="Merch"
-                style={{ boxShadow: "3.5px 3.5px 0px rgb(133, 171, 240)" }}
+                style={{ boxShadow: "3.5px 3.5px 0px rgb(230, 81, 81)" }}
               />
               <div className="overlay">Merch</div>
             </div>
@@ -238,7 +250,7 @@ function Albums() {
                 src="https://i.pinimg.com/474x/61/87/5f/61875f508dc439ec077e7a5b1490c22c.jpg"
                 alt="SOMNIA"
                 title="SOMNIA"
-                style={{ boxShadow: "3.5px 3.5px 0px rgb(133, 171, 240)" }}
+                style={{ boxShadow: "3.5px 3.5px 0px rgb(230, 81, 81)" }}
               />
               <div className="overlay">Somnia's board (ENG)</div>
             </div>
@@ -250,7 +262,7 @@ function Albums() {
                 src="https://pbs.twimg.com/media/GYuHMyoXEAAgAeh?format=jpg&name=large"
                 alt="FAQ"
                 title="FAQ"
-                style={{ boxShadow: "3.5px 3.5px 0px rgb(133, 171, 240)" }}
+                style={{ boxShadow: "3.5px 3.5px 0px rgb(230, 81, 81)" }}
               />
               <div className="overlay">FAQ</div>
             </div>

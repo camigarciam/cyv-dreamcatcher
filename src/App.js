@@ -44,6 +44,8 @@ import VRSe from './Components/ENG/VRSe';
 import VRS from './Components/ESP/VRS';
 import Japan from './Components/ENG/Japan';
 import Somnia from './Components/ENG/Somnia';
+import CSLe from './Components/ENG/CSLe';
+import CSL from './Components/ESP/CSL';
 
 
 
@@ -60,7 +62,7 @@ function App() {
           <img
             className="image"
             alt="header"
-            src="https://www.allkpop.com/upload/2024/06/content/280615/web_data/allkpop_1719569847_20240628-dreamcatcher1.jpg"
+            src="https://pbs.twimg.com/media/GfOxNHAasAI-QoT?format=jpg&name=4096x4096"
           />
         </header>
           <nav className='idiomas'>
@@ -111,6 +113,8 @@ function App() {
             <Route path="/VSe" element={<VSe />} />
             <Route path="/VRS" element={<VRS />} />
             <Route path="/VRSe" element={<VRSe />} />
+            <Route path="/CSL" element={<CSL />} />
+            <Route path="/CSLe" element={<CSLe />} />
             <Route path="/JAPAN" element={<Japan />} /> 
             <Route path="/Merch" element={<Merch />} />
             <Route path="/Merche" element={<Merche />} />
@@ -125,7 +129,7 @@ function App() {
             <a className="redes" href='https://twitter.com/ArgDreamcatcher'><FaTwitter /></a>
             <a className='redes' href='https://www.facebook.com/DreamcatcherArgentina'><FaFacebookF /></a>
           </p>
-          <p>Ver 4.2.1</p>
+          <p>Ver 6.0.0</p>
         </footer>
     </Router>
     </>

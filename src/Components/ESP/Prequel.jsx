@@ -12,7 +12,7 @@ const Prequel = ()=>{
         <p>-Photocard = <span className="colordosa">30 usd</span></p>
         <p>-Poster= ?</p>
       </div>
-      <img src="https://i.ebayimg.com/images/g/BLwAAOSwKGRkOfN9/s-l1200.webp" alt="Album Cover" style={{ boxShadow: "3.5px 3.5px 0px rgb(203, 100, 250)" }} />
+      <img src="https://i.ebayimg.com/00/s/MTI4MFgxMjgw/z/ky8AAOSwrDNkBZnc/$_57.JPG?set_id=880000500F" alt="Album Cover" style={{ boxShadow: "3.5px 3.5px 0px rgb(203, 100, 250)" }} />
       <img src="https://pm1.aminoapps.com/6635/549ca6073772d33d7b871466cebf50fde9dd3320_hq.jpg" alt="Album Cover" style={{ boxShadow: "3.5px 3.5px 0px rgb(203, 100, 250)" }} />
     </div>
   </div>
