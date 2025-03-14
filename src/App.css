@@ -1,6 +1,6 @@
 body{
   font-family: 'Poppins', sans-serif;
-  background-color: rgb(255, 237, 237); /* Color de fondo base *
+  background-color: rgb(178, 181, 244); /* Color de fondo base *
   background-size: 30px 30px; /* Tamaño de cada celda de la cuadrícula */
 }
 
@@ -8,7 +8,7 @@ body{
   max-width: 35%;
   display: block;
   margin-top: 2%;
-  box-shadow: 5px 5px 0px rgb(230, 81, 81);
+  box-shadow: 5px 5px 0px rgb(73, 78, 172);
   border-radius: 2%;
   border: 2px solid black;
 }
@@ -27,7 +27,7 @@ body{
 }
 
 .textouno {
-  background-color:rgb(230, 81, 81);
+  background-color:rgb(73, 78, 172);
   font-size: 20px;
   padding: 10px;
   border-radius: 2%;
@@ -38,7 +38,7 @@ body{
   background-color: white;
   font-size: 15px;
   padding: 10px;
-  box-shadow: 5px 5px 0px rgb(230, 81, 81);
+  box-shadow: 5px 5px 0px rgb(73, 78, 172);
   border-radius: 2%;
   border: 2px solid black;
   margin-bottom: 20px;
@@ -148,7 +148,7 @@ h4 {
 
 
 button{
-  background-color: rgb(230, 81, 81);
+  background-color: rgb(73, 78, 172);
   color: rgb(255, 255, 255);
   font-weight: 500;
   border: none;
@@ -188,4 +188,30 @@ nav{
 
 .idiomas{
   margin-top: 10px;
+}
+
+.ReactModal__Overlay {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.ReactModal__Overlay--after-open {
+  opacity: 1;
+}
+
+.ReactModal__Overlay--before-close {
+  opacity: 0;
+}
+
+.ReactModal__Content {
+  transform: scale(0.9);
+  transition: transform 0.3s ease-in-out;
+}
+
+.ReactModal__Content--after-open {
+  transform: scale(1);
+}
+
+.ReactModal__Content--before-close {
+  transform: scale(0.9);
 }

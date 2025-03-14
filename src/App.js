@@ -62,7 +62,7 @@ function App() {
           <img
             className="image"
             alt="header"
-            src="https://pbs.twimg.com/media/GfOxNHAasAI-QoT?format=jpg&name=4096x4096"
+            src="https://pbs.twimg.com/media/GlwV2SFXMAEThPY?format=jpg&name=medium"
           />
         </header>
           <nav className='idiomas'>
@@ -129,7 +129,7 @@ function App() {
             <a className="redes" href='https://twitter.com/ArgDreamcatcher'><FaTwitter /></a>
             <a className='redes' href='https://www.facebook.com/DreamcatcherArgentina'><FaFacebookF /></a>
           </p>
-          <p>Ver 6.0.0</p>
+          <p>Ver 7.0.0</p>
         </footer>
     </Router>
     </>

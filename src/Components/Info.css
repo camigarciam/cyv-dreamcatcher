@@ -28,7 +28,7 @@ justify-content: center; /* Center items horizontally */
   padding: 10px; /* Add padding for some space around the paragraphs */
   border-radius: 2px;
   align-items: top;
-  box-shadow: 3.5px 3.5px 0px rgb(230, 81, 81);
+  box-shadow: 3.5px 3.5px 0px rgb(73, 78, 172);
   border-radius: 3%;
   border: 2px solid black;
   max-height: fit-content;
@@ -57,7 +57,7 @@ justify-content: center; /* Center items horizontally */
   height: auto;
   margin-left: 10px;
   margin-bottom: 20px;
-  box-shadow: 3.5px 3.5px 0px rgb(230, 81, 81);
+  box-shadow: 3.5px 3.5px 0px rgb(73, 78, 172);
   border-radius: 3%;
   border: 2px solid black;
  
@@ -156,7 +156,7 @@ background-color: white; /* Add your desired background color */
 padding: 5px; /* Reduce padding for tighter spacing */
 border-radius: 5px;
 align-items: flex-start; /* Align text to the left (optional) */
-box-shadow: 3.5px 3.5px 0pxrgb(230, 81, 81);
+box-shadow: 3.5px 3.5px 0px rgb(73, 78, 172);
 border-radius: 3%;
 border: 2px solid black;
 width: fit-content; /* Adjust width to fit content */
@@ -193,7 +193,7 @@ display: flex;
 margin: 0 5%;
 margin-bottom: 1.5%;
 font-size: 15px;
-box-shadow: 3.5px 3.5px 0px rgb(230, 81, 81);
+box-shadow: 3.5px 3.5px 0px rgb(73, 78, 172);
 border-radius: 5%;
 border: 2px solid black;
 padding: 10px;
@@ -216,7 +216,7 @@ flex-direction: column;
 background-color: rgb(255, 255, 255);
 padding: 20px;
 border-radius: 10px;
-box-shadow: 3.5px 3.5px 0px rgb(230, 81, 81);
+box-shadow: 3.5px 3.5px 0px rgb(73, 78, 172);
 border: 2px solid black;
 width: 500px;
 max-width: 80%;

@@ -34,8 +34,8 @@ const Announcement = () => {
 
   return (
     <Modal
-      isOpen={showAnnouncement}
-      onRequestClose={handleClose}
+    isOpen={showAnnouncement}
+    onRequestClose={handleClose}
       style={{
         content: {
           top: '50%',
@@ -44,7 +44,8 @@ const Announcement = () => {
           bottom: 'auto',
           marginRight: '-50%',
           transform: 'translate(-50%, -50%)',
-          width: '80%',
+          width: '70%',
+          height: '80%',
           boxShadow: "3.5px 3.5px 5px rgb(130,130,130)",
           border: "2px solid rgb(180, 180, 180)",
         },
@@ -55,15 +56,14 @@ const Announcement = () => {
             <p> These are the newest updates:
                 <ul>
                   <li><p><h3>SOMNIAS BOARD</h3>
-                  A new space where you will be able to get to know other collectors!~ </p></li>
-                    <li>Christmas Sweet Love </li>
-                    <li> Fallen Angel s& Dream of Angels</li>
-                    <li>Trading cards ver.3</li>
-                    <li> Web Desing</li>
+                  (this is not new anymore but I want people to join) </p></li>
+                    <li>Insomnia 3rd kit </li>
+                    <li> Web Desing BECAUSE I AM SAD DREAMCTACHER I LOVE YOU YOU ARE MY FIRTS AND LAST LOVES FOREVER</li>
                 </ul>
-                Last update: Jan 7th 2025 <br/>
-                Version 6.0.0 <br/>
-                <img src="https://media1.tenor.com/m/F9pBstPqGdQAAAAd/jiu-dreamcatcher.gif" alt="GIF Jiu"  style={{ width: '120px', height: '100px' }}  />
+                Last update: March 15th 2025 <br/>
+                Version 7.0.0 <br/>
+                <img src="https://media1.tenor.com/m/7qFBMxS4NmEAAAAd/siyeon-yoohyeon.gif" alt="GIF heart"  style={{ width: '120px', height: '120px' }}  />
+                
             </p>
             <div>
         <label>

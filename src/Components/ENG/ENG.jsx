@@ -20,7 +20,7 @@ const ENG= ()=>{
             <p>
               The prince in<span className="colordos"> GREEN </span> is the market used until now.
             </p>
-            <p>Last update: October 2024</p>
+            <p>Last update: March 2025</p>
           </div>
         </div>
         <h4>Click an album to see its price!</h4>

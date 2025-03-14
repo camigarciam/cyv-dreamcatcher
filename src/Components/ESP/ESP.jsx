@@ -24,7 +24,7 @@ const ESP= ()=>{
             <p>
               El precio en <span className="colordos">VERDE</span> es el precio internacional.
             </p>
-            <p>Última actualización: Octubre 2024</p>
+            <p>Última actualización: Marzo 2025</p>
             <DolarBlue /> (ARGENTINA)
             <h5>El dólar se actualiza todos los días!</h5>
           </div>

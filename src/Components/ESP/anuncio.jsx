@@ -46,6 +46,7 @@ const Anuncio = () => {
           marginRight: '-50%',
           transform: 'translate(-50%, -50%)',
           width: '80%',
+          height: '80%',
           boxShadow: "3.5px 3.5px 5px rgb(130,130,130)",
           border: "2px solid rgb(180, 180, 180)",
         },
@@ -56,15 +57,14 @@ const Anuncio = () => {
             <p> Estas son las últimas actualizaciones:	
             <ul>
                   <li><p><h3>SOMNIAS BOARD</h3>
-                    Un nuevo espacio donde podrás conocer a otros/as coleccionistas!~ (está en inglés) </p></li>
-                    <li>Christmas Swee Love </li>
-                    <li>Dream of Angel & Fallen Angels</li>
-                    <li> Tour pcs ver 3</li>
-                    <li> Web Desing</li>
+                    (ya no es nuevo pero sumense) </p></li>
+                    <li>3rd gen insomnia </li>
+                    <li> Web Desing PORQUE ESTOY TRISTE DREAMCATCHER LAS AMO SON ETERNAS</li>
                 </ul>
-                Ultima act: 7 de Enero 2025 <br/>
-                Version 6.0.0 <br/>
-                <img src="https://media1.tenor.com/m/F9pBstPqGdQAAAAd/jiu-dreamcatcher.gif" alt="GIF Jiu"  style={{ width: '120px', height: '100px' }}  />
+                Ultima act: 14 de Marzo de 2025 <br/>
+                Version 7.0.0 <br/>
+                <img src="https://media1.tenor.com/m/7qFBMxS4NmEAAAAd/siyeon-yoohyeon.gif" alt="GIF heart"  style={{ width: '120px', height: '120px' }}  />
+                
             </p>
 
       <div>

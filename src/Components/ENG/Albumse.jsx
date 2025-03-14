@@ -240,7 +240,7 @@ function Albumse() {
                 src={require('./../../MerchCover.png')}
                 alt="Merch"
                 title="Merch"
-                style={{ boxShadow: "3.5px 3.5px 0px rgb(230, 81, 81)" }}
+                style={{ boxShadow: "3.5px 3.5px 0px rgb(73, 78, 172)" }}
               />
               <div className="overlay">Merch</div>
             </div>
@@ -252,7 +252,7 @@ function Albumse() {
                 src="https://i.pinimg.com/474x/61/87/5f/61875f508dc439ec077e7a5b1490c22c.jpg"
                 alt="SOMNIA"
                 title="SOMNIA"
-                style={{ boxShadow: "3.5px 3.5px 0px rgb(230, 81, 81)" }}
+                style={{ boxShadow: "3.5px 3.5px 0px rgb(73, 78, 172)" }}
               />
               <div className="overlay">Somnia's board</div>
             </div>
@@ -264,7 +264,7 @@ function Albumse() {
                 src="https://pbs.twimg.com/media/GYuHMyoXEAAgAeh?format=jpg&name=large"
                 alt="FAQ"
                 title="FAQ"
-                style={{ boxShadow: "3.5px 3.5px 0px rgb(230, 81, 81)" }}
+                style={{ boxShadow: "3.5px 3.5px 0px rgb(73, 78, 172)" }}
               />
               <div className="overlay">FAQ</div>
             </div>

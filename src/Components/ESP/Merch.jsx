@@ -290,6 +290,17 @@ const Merch = () => {
       "https://preview.redd.it/dreamcatcher-2025-seasons-greetings-dreamy-farm-a-dreamy-v0-7ig22z3m7owd1.jpg?width=1080&crop=smart&auto=webp&s=539d9bea1806d0eee9892c85ff2eaa4d7ead65c0"
       ]
     },
+    {
+      title: "Insomnia 3rd gen kit",
+      items: [
+        { name: "member set", price1: null, price2: "15usd" },
+        { name: "outbox", price1: null, price2: "30usd" },
+        {name: "complete", price1: null, price2: "70-100usd"},
+      ],
+      images: [
+      "https://preview.redd.it/dreamcatcher-official-fan-club-insomnia-3rd-generation-kit-v0-zztsi2xlrtje1.jpg?width=640&crop=smart&auto=webp&s=1634d76b510b8f427af329c4619d26c8b9ecb89d"
+      ]
+    },
   ];
   
   // Ordenar el array por título de forma alfabética
