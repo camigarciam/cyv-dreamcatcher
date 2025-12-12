@@ -56,15 +56,15 @@ const Anuncio = () => {
       <p>Bienvenidx a la lista de precios</p>
             <p> Estas son las últimas actualizaciones:	
             <ul>
-                  <li><p><h3>SOMNIAS BOARD</h3>
-                    (ya no es nuevo pero sumense) </p></li>
-                    <li>3rd gen insomnia </li>
-                    <li> Web Desing PORQUE ESTOY TRISTE DREAMCATCHER LAS AMO SON ETERNAS</li>
+                    <li>7 doors of christas merch</li>
+                    <li>UAU #Playlist </li>
+                    <li>UAU Tour Merch (adentro de UAU)</li>
+                    <li> Web Desing </li>
                 </ul>
-                Ultima act: 14 de Marzo de 2025 <br/>
-                Version 7.0.0 <br/>
-                <img src="https://media1.tenor.com/m/7qFBMxS4NmEAAAAd/siyeon-yoohyeon.gif" alt="GIF heart"  style={{ width: '120px', height: '120px' }}  />
-                
+                Ultima act: 12 de Diciembre de 2025 <br/>
+                Version 8.0.0 <br/>
+                <img src="https://media1.tenor.com/m/uGd7Oh7opfQAAAAd/dreamcatcher-heart.gif" alt="GIF heart"  style={{ width: '180px', height: '120px' }}  />
+
             </p>
 
       <div>

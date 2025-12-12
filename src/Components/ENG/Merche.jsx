@@ -265,6 +265,16 @@ const Merche = () => {
       images: [
       "https://i.redd.it/lmpsjtzma1b61.jpg"
       ]
+    },{
+      title: "7 doors of Christmas a Lucky encomre",
+      items: [
+        { name: "Binder", price1: null, price2: "15usd" },
+        {name: "Binder & Livestreaming PC ", price1: null, price2: "6usd"},
+        {name: "Trading card", price1: null, price2: "3usd"}
+      ],
+      images: [
+      "https://pbs.twimg.com/media/Gh7iOc7WUAAvjy8.jpg"
+      ]
     },
     {
       title: "Season Greetings 2025",

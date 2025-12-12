@@ -55,14 +55,14 @@ const Announcement = () => {
       <p>Welcome to the price guide</p>
             <p> These are the newest updates:
                 <ul>
-                  <li><p><h3>SOMNIAS BOARD</h3>
-                  (this is not new anymore but I want people to join) </p></li>
-                    <li>Insomnia 3rd kit </li>
-                    <li> Web Desing BECAUSE I AM SAD DREAMCTACHER I LOVE YOU YOU ARE MY FIRTS AND LAST LOVES FOREVER</li>
-                </ul>
-                Last update: March 15th 2025 <br/>
-                Version 7.0.0 <br/>
-                <img src="https://media1.tenor.com/m/7qFBMxS4NmEAAAAd/siyeon-yoohyeon.gif" alt="GIF heart"  style={{ width: '120px', height: '120px' }}  />
+                     <li>7 doors of Christmas merch</li>
+                    <li>UAU #Playlist </li>
+                    <li>UAU Tour Merch (inside UAU)</li>
+                    <li> Web Design </li></ul>
+                Last update: December 12ths 2025 <br/>
+                Version 8.0.0 <br/>
+                <img src="https://media1.tenor.com/m/uGd7Oh7opfQAAAAd/dreamcatcher-heart.gif" alt="GIF heart"  style={{ width: '180px', height: '120px' }}  />
+
                 
             </p>
             <div>

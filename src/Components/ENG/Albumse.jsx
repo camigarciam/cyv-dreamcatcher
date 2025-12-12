@@ -233,6 +233,18 @@ function Albumse() {
               <div className="overlay">Japanese Albums</div>
             </div>
           </Link>
+          <Link to="/UAUe"onClick={handleAlbumClick}>
+            <div className="image-container">
+              <img
+                className="portada"
+                src='https://i1.sndcdn.com/artworks-yAgqlLo6IQF8g7CK-pZ60wQ-t1080x1080.jpg'
+                alt="UAU"
+                title="UAU"
+                style={{ boxShadow: "3.5px 3.5px 0px rgb(73, 78, 172)" }}
+              />
+              <div className="overlay">UAU</div>
+            </div>
+          </Link>
           <Link to="/MERCHe"onClick={handleAlbumClick}>
             <div className="image-container">
               <img

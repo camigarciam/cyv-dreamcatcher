@@ -301,6 +301,17 @@ const Merch = () => {
       "https://preview.redd.it/dreamcatcher-official-fan-club-insomnia-3rd-generation-kit-v0-zztsi2xlrtje1.jpg?width=640&crop=smart&auto=webp&s=1634d76b510b8f427af329c4619d26c8b9ecb89d"
       ]
     },
+    {
+      title: "7 doors of Christmas a Lucky encomre",
+      items: [
+        { name: "Binder", price1: null, price2: "15usd" },
+        {name: "Binder & Livestreaming PC ", price1: null, price2: "6usd"},
+        {name: "Trading card", price1: null, price2: "3usd"}
+      ],
+      images: [
+      "https://pbs.twimg.com/media/Gh7iOc7WUAAvjy8.jpg"
+      ]
+    },
   ];
   
   // Ordenar el array por título de forma alfabética

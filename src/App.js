@@ -46,6 +46,8 @@ import Japan from './Components/ENG/Japan';
 import Somnia from './Components/ENG/Somnia';
 import CSLe from './Components/ENG/CSLe';
 import CSL from './Components/ESP/CSL';
+import UAUe from './Components/ENG/UAUe';
+import UAU from './Components/ESP/UAU';
 
 
 
@@ -62,7 +64,7 @@ function App() {
           <img
             className="image"
             alt="header"
-            src="https://pbs.twimg.com/media/GlwV2SFXMAEThPY?format=jpg&name=medium"
+            src="https://thelowkeygeek.com/content/images/2025/05/dcot7fm.jpg"
           />
         </header>
           <nav className='idiomas'>
@@ -115,6 +117,8 @@ function App() {
             <Route path="/VRSe" element={<VRSe />} />
             <Route path="/CSL" element={<CSL />} />
             <Route path="/CSLe" element={<CSLe />} />
+            <Route path="/UAU" element={<UAU />} />
+            <Route path="/UAUe" element={<UAUe />} />
             <Route path="/JAPAN" element={<Japan />} /> 
             <Route path="/Merch" element={<Merch />} />
             <Route path="/Merche" element={<Merche />} />
@@ -129,7 +133,7 @@ function App() {
             <a className="redes" href='https://twitter.com/ArgDreamcatcher'><FaTwitter /></a>
             <a className='redes' href='https://www.facebook.com/DreamcatcherArgentina'><FaFacebookF /></a>
           </p>
-          <p>Ver 7.0.0</p>
+          <p>Ver 8.0.0</p>
         </footer>
     </Router>
     </>

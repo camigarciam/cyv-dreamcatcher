@@ -4,6 +4,8 @@ import DolarBlue from "./dolar";
 import Albums from "./Albums";
 import"./../../App.css"
 import Anuncio from "./anuncio";
+import Notificacion from "./Notificacion";
+import Notificacioncop from "./Notificacion copy";
 
 
 const ESP= ()=>{
@@ -11,6 +13,9 @@ const ESP= ()=>{
         <>
         <header className="App-header">
           <Anuncio/>
+          <Notificacion />
+          <Notificacioncop />
+        <div id="body"></div>
         </header>
        <div className="intro">
           <p className="textouno">
@@ -24,7 +29,7 @@ const ESP= ()=>{
             <p>
               El precio en <span className="colordos">VERDE</span> es el precio internacional.
             </p>
-            <p>Última actualización: Marzo 2025</p>
+            <p>Última actualización: Diciembre 2025</p>
             <DolarBlue /> (ARGENTINA)
             <h5>El dólar se actualiza todos los días!</h5>
           </div>

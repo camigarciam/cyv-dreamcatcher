@@ -2,12 +2,17 @@ import "../Info.css"
 
 import Albumse from "./Albumse";
 import Announcement from "./Announcement";
+import Notification from "./Notification";
+import Notificationcop from "./Notification copy";
 
 const ENG= ()=>{
     return(
         <>
         <header className="App-header">
           <Announcement />
+          <Notification />
+          <Notificationcop />
+        <div id="body"></div>
         </header>
        <div className="intro">
           <p className="textouno">
@@ -20,7 +25,7 @@ const ENG= ()=>{
             <p>
               The prince in<span className="colordos"> GREEN </span> is the market used until now.
             </p>
-            <p>Last update: March 2025</p>
+            <p>Last update: December 2025</p>
           </div>
         </div>
         <h4>Click an album to see its price!</h4>
