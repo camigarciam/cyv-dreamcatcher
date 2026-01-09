@@ -60,8 +60,13 @@ const Anuncio = () => {
                     <li>UAU #Playlist </li>
                     <li>UAU Tour Merch (adentro de UAU)</li>
                     <li> Web Desing </li>
+                    <b> Proximamente </b>
+                    <ul>
+                      <li>Chrocktikal</li>
+                      <li>Photobook de Gahyun</li>
+                    </ul>
                 </ul>
-                Ultima act: 12 de Diciembre de 2025 <br/>
+                Ultima act: 9 de Enero 2026 <br/>
                 Version 8.0.0 <br/>
                 <img src="https://media1.tenor.com/m/uGd7Oh7opfQAAAAd/dreamcatcher-heart.gif" alt="GIF heart"  style={{ width: '180px', height: '120px' }}  />
 

@@ -58,8 +58,13 @@ const Announcement = () => {
                      <li>7 doors of Christmas merch</li>
                     <li>UAU #Playlist </li>
                     <li>UAU Tour Merch (inside UAU)</li>
-                    <li> Web Design </li></ul>
-                Last update: December 12ths 2025 <br/>
+                    <li> Web Design </li>
+                    <b> Upcoming </b>
+                    <ul>
+                      <li>Chrocktikal</li>
+                      <li>Photobook de Gahyun</li>
+                    </ul></ul>
+                Last update: January 9th 2026 <br/>
                 Version 8.0.0 <br/>
                 <img src="https://media1.tenor.com/m/uGd7Oh7opfQAAAAd/dreamcatcher-heart.gif" alt="GIF heart"  style={{ width: '180px', height: '120px' }}  />
 
