@@ -343,7 +343,7 @@ const Merche = () => {
               <p className="ver">{item.title}</p>
 
               {item.items && item.items.map((product, idx) => (
-                <p key={idx}>
+                <p key={idx} className="itemmerch">
                   {product.name} = 
                   {product.price1 && <span className="colorunoa"> {product.price1}</span>}
                   {product.price2 && <span className="colordosa"> {product.price2}</span>}

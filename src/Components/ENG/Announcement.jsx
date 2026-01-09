@@ -65,7 +65,7 @@ const Announcement = () => {
                       <li>Photobook de Gahyun</li>
                     </ul></ul>
                 Last update: January 9th 2026 <br/>
-                Version 8.0.0 <br/>
+                Version 8.1.3 <br/>
                 <img src="https://media1.tenor.com/m/uGd7Oh7opfQAAAAd/dreamcatcher-heart.gif" alt="GIF heart"  style={{ width: '180px', height: '120px' }}  />
 
                 

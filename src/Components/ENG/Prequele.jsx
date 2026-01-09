@@ -13,7 +13,7 @@ const Prequele = ()=>{
         <p>-Poster= ?</p>
       </div>
       <img src="https://i.ebayimg.com/00/s/MTI4MFgxMjgw/z/ky8AAOSwrDNkBZnc/$_57.JPG?set_id=880000500F" alt="Album Cover" style={{ boxShadow: "3.5px 3.5px 0px rgb(203, 100, 250)" }} />
-      <img src="https://pm1.aminoapps.com/6635/549ca6073772d33d7b871466cebf50fde9dd3320_hq.jpg" alt="Album Cover" style={{ boxShadow: "3.5px 3.5px 0px rgb(203, 100, 250)" }} />
+      <img src="https://kpopcollectorsguide.weebly.com/uploads/2/9/1/9/29199653/a8a64a7cd00be754d84ae6ac018f66d2ca9e993a-hq_orig.jpg" alt="Album Cover" style={{ boxShadow: "3.5px 3.5px 0px rgb(203, 100, 250)" }} />
     </div>
   </div>
   )

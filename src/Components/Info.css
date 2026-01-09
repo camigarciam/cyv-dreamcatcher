@@ -421,3 +421,8 @@ font-size: 14px;
   background: linear-gradient(to right, #4a6cf7, #3a5ce5);
   transition: width 0.05s linear;
 }
+
+.itemmerch{
+   margin: 0;
+  padding: 1px 0;
+}

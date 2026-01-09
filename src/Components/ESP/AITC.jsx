@@ -15,8 +15,8 @@ const AITC = ()=>{
       <p>-Stickers = <span className="colorunoa"> 2usd</span> <span className="colordosa"> 5 usd</span></p>
       <p>-Poster = <span className="colorunoa"> 3usd</span> <span className="colordosa"> 5 usd</span></p>
     </div>
-    <img src="https://www.kyyo.co.uk/cdn/shop/products/Capture_d_ecran_2018-12-01_a_15.12.23_1024x1024.png?v=1543702139" alt="Album Cover" style={{ boxShadow: "3.5px 3.5px 0px rgb(223, 34, 141)" }} />
-    <img src="https://down-id.img.susercontent.com/file/a7219d2c80ac60c40eef8c438a9858ec" alt="Album Cover" style={{ boxShadow: "3.5px 3.5px 0px rgb(223, 34, 141)" }} />
+    <img src="https://pbs.twimg.com/media/EfGbxKEWkAAMirP?format=jpg&name=large" alt="Album Cover" style={{ boxShadow: "3.5px 3.5px 0px rgb(223, 34, 141)" }} />
+   
   </div>
 </div>
 

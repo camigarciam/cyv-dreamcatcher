@@ -67,7 +67,7 @@ const Anuncio = () => {
                     </ul>
                 </ul>
                 Ultima act: 9 de Enero 2026 <br/>
-                Version 8.0.0 <br/>
+                Version 8.1.3 <br/>
                 <img src="https://media1.tenor.com/m/uGd7Oh7opfQAAAAd/dreamcatcher-heart.gif" alt="GIF heart"  style={{ width: '180px', height: '120px' }}  />
 
             </p>

@@ -5,16 +5,34 @@ const Notification = ({
   message = "¡BREAKING NEWS! Handong's new album AtsnstA镜界 is out! Don't miss it.", 
   linkUrl = "https://open.spotify.com/album/6ELYGsthZFAnNkguZwCTST?si=lPC0p7AvQkezaZhFVuceTQ", 
   linkText = "Listen in Spotify",
-  duration = 20000 // 10 segundos en milisegundos
+  duration = 20000,
+  notificationId = "news_2"
 }) => {
-  const [isVisible, setIsVisible] = useState(true);
+  const [isVisible, setIsVisible] = useState(false);
   const [progress, setProgress] = useState(100);
 
   useEffect(() => {
+    const HOURS_24 = 24 * 60 * 60 * 1000; // 24 horas en milisegundos
+    
+    // 1. Obtener último cierre
+    const lastClosed = localStorage.getItem(`notification_${notificationId}_last_closed`);
+    
+    // 2. Si no existe o pasaron más de 24 horas, mostrar
+    if (!lastClosed) {
+      setIsVisible(true);
+    } else {
+      const lastTime = new Date(lastClosed).getTime();
+      const currentTime = new Date().getTime();
+      
+      if (currentTime - lastTime >= HOURS_24) {
+        setIsVisible(true);
+      }
+    }
+    
     if (!isVisible) return;
 
     const totalTime = duration;
-    const intervalTime = 50; // Actualizar cada 50ms para una barra de progreso suave
+    const intervalTime = 50;
     const decrement = (intervalTime / totalTime) * 100;
     
     const timer = setInterval(() => {
@@ -28,19 +46,19 @@ const Notification = ({
       });
     }, intervalTime);
 
-    // Temporizador para ocultar la notificación
     const hideTimer = setTimeout(() => {
       setIsVisible(false);
     }, duration);
 
-    // Limpieza de temporizadores
     return () => {
       clearInterval(timer);
       clearTimeout(hideTimer);
     };
-  }, [isVisible, duration]);
+  }, [isVisible, duration, notificationId]);
 
   const handleClose = () => {
+    // Guardar timestamp actual
+    localStorage.setItem(`notification_${notificationId}_last_closed`, new Date().toISOString());
     setIsVisible(false);
   };
 

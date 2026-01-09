@@ -5,12 +5,19 @@ body{
 }
 
 .image {
-  max-width: 35%;
+  max-width: 50%;
   display: block;
   margin-top: 2%;
   box-shadow: 5px 5px 0px rgb(73, 78, 172);
   border-radius: 2%;
   border: 2px solid black;
+}
+@media (max-width: 768px) { /* Tablets y celulares */
+  .image { max-width: 80%; }
+}
+
+@media (max-width: 480px) { /* Solo celulares pequeños */
+  .image { max-width: 90%; }
 }
 
 .App-header {
